@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AxeFinance KYC Processor</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        .container { max-width: 800px; margin: 0 auto; }
+        .card { background: #f9f9f9; border-radius: 8px; padding: 20px; margin-bottom: 20px; }
+        .form-group { margin-bottom: 15px; }
+        label { display: block; margin-bottom: 5px; font-weight: bold; }
+        input[type="file"], textarea, select { width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px; }
+        button { background: #0066cc; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; }
+        .schema-field { display: flex; margin-bottom: 10px; }
+        .schema-field input { flex: 1; margin-right: 10px; }
+        .schema-field button { width: auto; }
+        .result-section { margin-top: 20px; }
+        .result-item { padding: 10px; border-bottom: 1px solid #eee; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Document Processing System</h1>
+        <div class="card">
+            <h2>Upload Document</h2>
+            <form id="uploadForm" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="document">KYC Document (PDF/Image)</label>
+                    <input type="file" id="document" name="image" accept=".pdf,.png,.jpg,.jpeg" required>
+                </div>
+                
+                <h3>Output Schema</h3>
+                <div id="schemaFields">
+                    <div class="schema-field">
+                        <input type="text" placeholder="Field name" name="field_name" required>
+                        <button type="button" class="removeField">-</button>
+                    </div>
+                </div>
+                <button type="button" id="addField">+ Add Field</button>
+                
+                <button type="submit">Process Document</button>
+            </form>
+        </div>
+        
+        <div id="results" class="card" style="display:none;">
+            <h2>Processing Results</h2>
+            <div id="extractedData"></div>
+            <pre id="jsonOutput"></pre>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('addField').addEventListener('click', () => {
+            const field = document.createElement('div');
+            field.className = 'schema-field';
+            field.innerHTML = `
+                <input type="text" placeholder="Field name" name="field_name" required>
+                <button type="button" class="removeField">-</button>
+            `;
+            field.querySelector('.removeField').addEventListener('click', () => field.remove());
+            document.getElementById('schemaFields').appendChild(field);
+        });
+
+        document.querySelectorAll('.removeField').forEach(btn => {
+            btn.addEventListener('click', (e) => e.target.parentElement.remove());
+        });
+
+        document.getElementById('uploadForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const formData = new FormData();
+            formData.append('image', document.getElementById('document').files[0]);
+            
+            const schema = [];
+            document.querySelectorAll('input[name="field_name"]').forEach(input => {
+                schema.push({name: input.value});
+            });
+            formData.append('schema', JSON.stringify(schema));
+            
+            try {
+                const response = await fetch('/extract', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                if (!response.ok) throw new Error('Processing failed');
+                
+                const result = await response.json();
+                document.getElementById('results').style.display = 'block';
+                
+                // Display extracted data
+                let html = '<h3>Extracted Data:</h3>';
+                for (const [key, value] of Object.entries(result)) {
+                    html += `<div class="result-item"><strong>${key}:</strong> ${value || 'Not found'}</div>`;
+                }
+                document.getElementById('extractedData').innerHTML = html;
+                
+                // Display raw JSON
+                document.getElementById('jsonOutput').textContent = JSON.stringify(result, null, 2);
+            } catch (error) {
+                alert(`Error: ${error.message}`);
+            }
+        });
+    </script>
+</body>
+</html>
