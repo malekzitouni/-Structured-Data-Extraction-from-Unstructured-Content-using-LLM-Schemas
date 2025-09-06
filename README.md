@@ -896,9 +896,5 @@ class ModelCacheManager:
 - **Confidence Calibration**: 92% correlation between predicted and actual accuracy
 
 
-|---------------|----------|-----------|---------|----------|-------------------|
-| Bank Statements | 96.3% | 95.8% | 97.1% | 96.4% | 28s |
-| Tax Documents | 93.7% | 94.2% | 93.1% | 93.6% |
-
 
 
