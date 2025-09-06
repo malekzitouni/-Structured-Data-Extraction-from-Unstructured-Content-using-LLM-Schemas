@@ -87,7 +87,7 @@ img width="477" height="158" alt="image" src="https://github.com/user-attachment
 
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/abe79c5f-76d9-46b2-8376-5788a6fdf286" />
 Output : 
-<img width="800" " alt="image" src="https://github.com/user-attachments/assets/e8aa4277-46af-49ca-b2ca-eca3cc5d4577" />
+<img width="800"  alt="image" src="https://github.com/user-attachments/assets/e8aa4277-46af-49ca-b2ca-eca3cc5d4577" />
 
 
 ### Table Structure Recognition (TSR)
@@ -899,5 +899,6 @@ class ModelCacheManager:
 |---------------|----------|-----------|---------|----------|-------------------|
 | Bank Statements | 96.3% | 95.8% | 97.1% | 96.4% | 28s |
 | Tax Documents | 93.7% | 94.2% | 93.1% | 93.6% |
+
 
 
