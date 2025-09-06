@@ -1,0 +1,11 @@
+{
+  "fields": {
+    "Code NAF": {
+      "description": "the code NAF of the company ",
+      "data_type": "string",
+      "synonyms": [],
+      "extraction_instructions": "",
+      "context_keywords": []
+    }
+  }
+}

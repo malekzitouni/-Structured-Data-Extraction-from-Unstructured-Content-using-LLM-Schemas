@@ -1,0 +1,137 @@
+{
+  "mistral_extractions": {
+    "address_client": "North Douglas, AZ 95355",
+    "address_seller": "Summit Apt. 455"
+  },
+  "all_candidates_with_metadata": {
+    "address_client": [
+      {
+        "value": "58861 Gonzalez Prairie, Lake Daniellefurt, IN 57228",
+        "block_id": "3",
+        "confidence": 0.9339390397071838,
+        "bounding_box": [
+          140.08267211914062,
+          506.8832092285156,
+          524.1350708007812,
+          605.605712890625
+        ],
+        "block_text": "Andrews, Kirby and Valdez\n58861 Gonzalez Prairie\nLake Daniellefurt, IN 57228"
+      },
+      {
+        "value": "Client: \n123 Main St\nCity, State ZIP",
+        "block_id": "5",
+        "confidence": 0.907884955406189,
+        "bounding_box": [
+          825.956787109375,
+          444.9659729003906,
+          947.0271606445312,
+          473.4598693847656
+        ],
+        "block_text": "Client:"
+      },
+      {
+        "value": "Andrews, Kirby and Valdez\n58861 Gonzalez Prairie\nLake Daniellefurt, IN 57228",
+        "block_id": "25",
+        "confidence": 0.43686699867248535,
+        "bounding_box": [
+          139.5564422607422,
+          503.831787109375,
+          1267.7000732421875,
+          713.9268188476562
+        ],
+        "block_text": "Andrews, Kirby and Valdez\n58861 Gonzalez Prairie\nLake Daniellefurt, IN 57228\n\nBecker Ltd\n8012 Stewart Summit Apt. 455\nNorth Douglas, AZ 95355\n\nTax Id: 945-82-2137\nIBAN: GB75MCRL06841367619257\n\nTax Id:"
+      },
+      {
+        "value": "58861 Gonzalez Prairie, Lake Daniellefurt, IN 57228",
+        "block_id": "26",
+        "confidence": 0.4158473014831543,
+        "bounding_box": [
+          139.05845642089844,
+          503.6292419433594,
+          628.6273803710938,
+          713.441162109375
+        ],
+        "block_text": "Andrews, Kirby and Valdez\n58861 Gonzalez Prairie\nLake Daniellefurt, IN 57228\n\nTax Id: 945-82-2137\nIBAN: GB75MCRL06841367619257"
+      },
+      {
+        "value": "North Douglas, AZ 95355",
+        "block_id": "33",
+        "confidence": 0.358964204788208,
+        "bounding_box": [
+          833.98876953125,
+          578.9063110351562,
+          1185.8809814453125,
+          609.857666015625
+        ],
+        "block_text": "North Douglas, AZ 95355"
+      }
+    ],
+    "address_seller": [
+      {
+        "value": "8012 Stewart Summit Apt. 455, North Douglas, AZ 95355",
+        "block_id": "2",
+        "confidence": 0.94014972448349,
+        "bounding_box": [
+          832.8427734375,
+          506.4781799316406,
+          1263.6275634765625,
+          610.233642578125
+        ],
+        "block_text": "Becker Ltd\n8012 Stewart Summit Apt. 455\nNorth Douglas, AZ 95355"
+      },
+      {
+        "value": "Seller:",
+        "block_id": "10",
+        "confidence": 0.8856250047683716,
+        "bounding_box": [
+          132.9769744873047,
+          444.42156982421875,
+          252.46241760253906,
+          473.6143493652344
+        ],
+        "block_text": "Seller:"
+      },
+      {
+        "value": "Becker Ltd\n8012 Stewart Summit Apt. 455\nNorth Douglas, AZ 95355",
+        "block_id": "25",
+        "confidence": 0.43686699867248535,
+        "bounding_box": [
+          139.5564422607422,
+          503.831787109375,
+          1267.7000732421875,
+          713.9268188476562
+        ],
+        "block_text": "Andrews, Kirby and Valdez\n58861 Gonzalez Prairie\nLake Daniellefurt, IN 57228\n\nBecker Ltd\n8012 Stewart Summit Apt. 455\nNorth Douglas, AZ 95355\n\nTax Id: 945-82-2137\nIBAN: GB75MCRL06841367619257\n\nTax Id:"
+      },
+      {
+        "value": "Seller:",
+        "block_id": "28",
+        "confidence": 0.3841829001903534,
+        "bounding_box": [
+          132.9769744873047,
+          444.42156982421875,
+          252.46241760253906,
+          473.6143493652344
+        ],
+        "block_text": "Seller:"
+      },
+      {
+        "value": "Summit Apt. 455",
+        "block_id": "30",
+        "confidence": 0.3665289580821991,
+        "bounding_box": [
+          1028.0267333984375,
+          543.7352905273438,
+          1264.3013916015625,
+          568.8704833984375
+        ],
+        "block_text": "Summit Apt. 455"
+      }
+    ]
+  },
+  "statistics": {
+    "mistral_extraction_calls": 40,
+    "total_candidates_found": 10,
+    "fields_with_candidates": 2
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "enhanced_schema_fields": {
+    "Code NAF ": {
+      "original_description": "the code NAF of the company (NAF code)",
+      "data_type": "string",
+      "generated_synonyms": [],
+      "identified_patterns": [],
+      "context_clues": []
+    }
+  },
+  "preprocessing_statistics": {
+    "fields_analyzed": 1,
+    "total_synonyms_generated": 0,
+    "total_patterns_identified": 0
+  }
+}

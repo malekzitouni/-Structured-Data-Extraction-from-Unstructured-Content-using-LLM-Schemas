@@ -1,0 +1,560 @@
+{
+  "enhanced_schema": {
+    "fields": {
+      "Code NAF": {
+        "description": "the code NAF of the company ",
+        "data_type": "string",
+        "synonyms": [],
+        "extraction_instructions": "",
+        "context_keywords": []
+      }
+    }
+  },
+  "structured_data": {
+    "Code NAF": "4932Z"
+  },
+  "source_traceability": {
+    "Code NAF": "8"
+  },
+  "processing_metadata": {
+    "mistral_extractions": 130,
+    "mistral_conflict_resolutions": 1,
+    "tinyllama_validations": 1,
+    "tinyllama_field_analyses": 1,
+    "fields_with_candidates": 1,
+    "conflicts_detected": 1,
+    "conflicts_resolved": 0
+  },
+  "all_candidates": {
+    "Code NAF": [
+      {
+        "value": "N/A",
+        "block_id": "1",
+        "confidence": 0.948959231376648,
+        "bounding_box": [
+          13.51263427734375,
+          388.10906982421875,
+          1145.5509033203125,
+          916.3023071289062
+        ],
+        "block_text": "+----------------+----------+---------+---------+---------+---------+\n| Rubriques      | Base     | Taux Salarial | Cot. Salariales | Taux Patronal | Cot. Patronales |\n+----------------+----------+-------------+---------------+--------------+---------------+\n| SALAIRE DE BASE | 5 200,00 € | 34,28       |               |              |               |\n| SALAIRE BRUT   | 5 200,00 € |             |               |              |               |\n| SANTÉ          |           |             |               |              |               |\n| Sécurité sociale | 5 200,00 € |             |               |              |               |\n| ACCIDENTS DU TRAVAIL - MALADIES PROFESSIONNELLES | 5 200,00 € |             |               |              |               |\n| RETRAITE        |           |             |               |              |               |\n| Assurance Vieillesse déplafonnée | 5 200,00 € | 0,40         | 20,80 €       | 2,02          | 105,04 €      |\n| Assurance Vieillesse plafonnée | 3 925,00 € | 6,90         | 270,83 €      | 8,55          | 335,59 €      |\n| Retraite complémentaire tranche: AGIRC-ARRCO | 5 200,00 € | 3,15         | 163,80 €      | 4,72          | 245,44 €      |\n| CEG tranche 1   | 5 200,00 € | 0,86         | 44,72 €       | 1,29          | 67,08 €       |\n| FAMILLE-SÉCURITÉ SOCIALE | 5 200,00 € |             |               |              | 135,42 €      |\n| ASSURANCE CHÔMAGE |           |             |               |              |               |\n| Assurance chômage tranche A | 5 200,00 € |             |               |              |               |\n| Assurance chômage tranche AGS (FNGS) | 5 200,00 € |             |               |              |               |\n| CSG déductible    | 5 109,00 € | 6,80         | 347,41 €      |              |               |\n| AUTRES CONTRIBUTIONS DUES PAR L'EMPLOYEUR | 5 200,00 € |             |               |              |               |\n| TOTAL DES RETENUES |           |             |               |              |               |\n| CSG/CRDS imposable à l'impôt sur le revenu | 5 109,00 € | 2,90         | 148,16 €      |              |               |\n|                   |             |             |               | 847,56 €      | 1 677,93 €    |\n+----------------+----------+---------+---------+---------+---------+"
+      },
+      {
+        "value": "Code NAF",
+        "block_id": "3",
+        "confidence": 0.896560788154602,
+        "bounding_box": [
+          345.5860290527344,
+          108.67215728759766,
+          422.9178466796875,
+          121.12652587890625
+        ],
+        "block_text": "Code NAF"
+      },
+      {
+        "value": "3 925,00 €",
+        "block_id": "7",
+        "confidence": 0.8739218711853027,
+        "bounding_box": [
+          280.18011474609375,
+          322.1953430175781,
+          355.58709716796875,
+          335.8870849609375
+        ],
+        "block_text": ": 3 925,00 €"
+      },
+      {
+        "value": "4932Z",
+        "block_id": "8",
+        "confidence": 0.8731033802032471,
+        "bounding_box": [
+          428.1224060058594,
+          108.13370513916016,
+          474.9820556640625,
+          120.66381072998047
+        ],
+        "block_text": "4932Z"
+      },
+      {
+        "value": "4352,44",
+        "block_id": "11",
+        "confidence": 0.8660317659378052,
+        "bounding_box": [
+          968.3587646484375,
+          921.0299682617188,
+          1038.900634765625,
+          934.689453125
+        ],
+        "block_text": "4 352,44 €"
+      },
+      {
+        "value": "172023155521988",
+        "block_id": "12",
+        "confidence": 0.8645209670066833,
+        "bounding_box": [
+          246.2460174560547,
+          237.43722534179688,
+          373.0304260253906,
+          250.14791870117188
+        ],
+        "block_text": "172023155521988"
+      },
+      {
+        "value": "0016 - Convention collective nationale des transports",
+        "block_id": "13",
+        "confidence": 0.8641948699951172,
+        "bounding_box": [
+          189.7158660888672,
+          142.15744018554688,
+          547.9456176757812,
+          158.21873474121094
+        ],
+        "block_text": "0016 - Convention collective nationale des transports"
+      },
+      {
+        "value": "4204,28",
+        "block_id": "14",
+        "confidence": 0.8641172051429749,
+        "bounding_box": [
+          945.5524291992188,
+          963.0135498046875,
+          1061.7021484375,
+          984.0245361328125
+        ],
+        "block_text": "4 204,28 €"
+      },
+      {
+        "value": "3460,01",
+        "block_id": "16",
+        "confidence": 0.8615598082542419,
+        "bounding_box": [
+          974.77685546875,
+          1338.208740234375,
+          1090.0423583984375,
+          1359.332275390625
+        ],
+        "block_text": "3460,01 €"
+      },
+      {
+        "value": "98141753800015",
+        "block_id": "20",
+        "confidence": 0.8476789593696594,
+        "bounding_box": [
+          144.74203491210938,
+          108.74972534179688,
+          263.58074951171875,
+          120.94060516357422
+        ],
+        "block_text": "98141753800015"
+      },
+      {
+        "value": "N/A",
+        "block_id": "21",
+        "confidence": 0.8441939353942871,
+        "bounding_box": [
+          93.38824462890625,
+          219.53111267089844,
+          373.34063720703125,
+          353.77301025390625
+        ],
+        "block_text": "Matricule : 001\nN° Sécurité Sociale : 172023155521988\nEntrée le : 01/11/2023\nEmploi : President\nQualification : Non Cadre\nCoefficient : 225\nPlafond Sécurité Sociale : 3925,00 €\nContrat : CDI"
+      },
+      {
+        "value": "Urssaf",
+        "block_id": "27",
+        "confidence": 0.8255562782287598,
+        "bounding_box": [
+          98.03301239013672,
+          126.08988189697266,
+          153.27432250976562,
+          139.01531982421875
+        ],
+        "block_text": "Urssaf :"
+      },
+      {
+        "value": "26000,00 €",
+        "block_id": "32",
+        "confidence": 0.8170246481895447,
+        "bounding_box": [
+          653.638427734375,
+          1060.6741943359375,
+          731.0922241210938,
+          1072.889892578125
+        ],
+        "block_text": "26 000,00 €"
+      },
+      {
+        "value": "225",
+        "block_id": "42",
+        "confidence": 0.7939395904541016,
+        "bounding_box": [
+          181.66854858398438,
+          305.8089904785156,
+          213.28302001953125,
+          318.2981872558594
+        ],
+        "block_text": "225"
+      },
+      {
+        "value": "21 762,20",
+        "block_id": "46",
+        "confidence": 0.7886834740638733,
+        "bounding_box": [
+          653.58447265625,
+          1110.8956298828125,
+          731.36962890625,
+          1123.771484375
+        ],
+        "block_text": "21 762,20 €"
+      },
+      {
+        "value": "1",
+        "block_id": "49",
+        "confidence": 0.7829465270042419,
+        "bounding_box": [
+          1065.153076171875,
+          1060.4720458984375,
+          1133.116943359375,
+          1073.363037109375
+        ],
+        "block_text": "1 677.93 €"
+      },
+      {
+        "value": "IMAN MAHROUG",
+        "block_id": "52",
+        "confidence": 0.7735934853553772,
+        "bounding_box": [
+          706.6531982421875,
+          221.1151580810547,
+          903.8355102539062,
+          238.875
+        ],
+        "block_text": "IMAN MAHROUG"
+      },
+      {
+        "value": "25525,49",
+        "block_id": "57",
+        "confidence": 0.7622904181480408,
+        "bounding_box": [
+          1064.508056640625,
+          1085.3779296875,
+          1133.867919921875,
+          1098.619384765625
+        ],
+        "block_text": "2 525,49 €"
+      },
+      {
+        "value": "6877",
+        "block_id": "63",
+        "confidence": 0.7420943379402161,
+        "bounding_box": [
+          1064.5137939453125,
+          1110.0501708984375,
+          1133.531494140625,
+          1123.544921875
+        ],
+        "block_text": "6877,93 €"
+      },
+      {
+        "value": "151,67",
+        "block_id": "65",
+        "confidence": 0.7335524559020996,
+        "bounding_box": [
+          300.91546630859375,
+          1060.113037109375,
+          346.964111328125,
+          1072.7545166015625
+        ],
+        "block_text": "151,67"
+      },
+      {
+        "value": "758,35",
+        "block_id": "69",
+        "confidence": 0.6950829029083252,
+        "bounding_box": [
+          299.974365234375,
+          1084.6915283203125,
+          346.24822998046875,
+          1098.0301513671875
+        ],
+        "block_text": "758,35"
+      },
+      {
+        "value": "None",
+        "block_id": "70",
+        "confidence": 0.692535400390625,
+        "bounding_box": [
+          15.855915069580078,
+          1050.81201171875,
+          1144.57958984375,
+          1132.9273681640625
+        ],
+        "block_text": "Heures période | 151,67 | Cumul bases | 26 000,00 € | Total cot. patronales | 1 677,93 €\nCumul heures | 758,35 | Cumul bruts | 26 000,00 € | Total des retenues | 2 525,49 €\nCumul heures sup. | 0,00 | Cumul imposable | 21 762,20 € | Coût global période | 6 877,93 €"
+      },
+      {
+        "value": "4932Z",
+        "block_id": "76",
+        "confidence": 0.6404322385787964,
+        "bounding_box": [
+          96.04209899902344,
+          73.84878540039062,
+          552.7294921875,
+          175.0257110595703
+        ],
+        "block_text": "123 Impasse Eugène Boudin\n83130 La Garde\n\n**Siret :** 98141753800015 **Code NAF :** 4932Z\n\n**Urssaf :**\n\n**Convention :** 0016 - Convention collective nationale des transports routiers et activités auxiliaires du transport"
+      },
+      {
+        "value": "4932Z",
+        "block_id": "77",
+        "confidence": 0.637613832950592,
+        "bounding_box": [
+          345.6497497558594,
+          108.22893524169922,
+          475.2801208496094,
+          121.6075668334961
+        ],
+        "block_text": "Code NAF : 4932Z"
+      },
+      {
+        "value": "SANTE",
+        "block_id": "78",
+        "confidence": 0.6349037289619446,
+        "bounding_box": [
+          21.632841110229492,
+          492.6259460449219,
+          73.60929870605469,
+          505.01300048828125
+        ],
+        "block_text": "SANTE"
+      },
+      {
+        "value": "0016",
+        "block_id": "81",
+        "confidence": 0.580761194229126,
+        "bounding_box": [
+          189.74525451660156,
+          142.90847778320312,
+          230.75315856933594,
+          154.74334716796875
+        ],
+        "block_text": "0016"
+      },
+      {
+        "value": "26000,00",
+        "block_id": "87",
+        "confidence": 0.5035247206687927,
+        "bounding_box": [
+          653.3455200195312,
+          1085.38134765625,
+          731.5343017578125,
+          1097.905029296875
+        ],
+        "block_text": "26000,00 €"
+      },
+      {
+        "value": "0016 - Convention collective nationale des transports routiers et activités auxiliaires du transport",
+        "block_id": "88",
+        "confidence": 0.48136216402053833,
+        "bounding_box": [
+          97.67554473876953,
+          141.9736785888672,
+          548.46923828125,
+          174.0823516845703
+        ],
+        "block_text": "Convention : 0016 - Convention collective nationale des transports routiers et activités auxiliaires du transport"
+      },
+      {
+        "value": "IMAN MAHROUG",
+        "block_id": "90",
+        "confidence": 0.4686598777770996,
+        "bounding_box": [
+          706.6531982421875,
+          221.1151580810547,
+          903.8355102539062,
+          238.875
+        ],
+        "block_text": "IMAN MAHROUG"
+      },
+      {
+        "value": "N/A",
+        "block_id": "92",
+        "confidence": 0.4605858623981476,
+        "bounding_box": [
+          15.855915069580078,
+          1050.81201171875,
+          1144.57958984375,
+          1132.9273681640625
+        ],
+        "block_text": "+------------+----------+---------+\n| Heures période | 151,67   | Cumul bases | 26 000,00 € | Total cot. patronales | 1 677,93 € |\n| Cumul heures | 758,35   | Cumul bruts | 26 000,00 € | Total des retenues | 2 525,49 € |\n| Cumul heures sup. | 0,00    | Cumul imposable | 21 762,20 € | Coût global période | 6 877,93 € |\n+------------+----------+---------+"
+      },
+      {
+        "value": "0016 - Convention collective nationale des transports routiers et activités auxiliaires du transport",
+        "block_id": "97",
+        "confidence": 0.42180415987968445,
+        "bounding_box": [
+          97.67554473876953,
+          141.9736785888672,
+          548.46923828125,
+          174.0823516845703
+        ],
+        "block_text": "Convention : 0016 - Convention collective nationale des transports routiers et activités auxiliaires du transport"
+      },
+      {
+        "value": "4932Z",
+        "block_id": "102",
+        "confidence": 0.40609028935432434,
+        "bounding_box": [
+          96.2839584350586,
+          106.2392578125,
+          553.0028686523438,
+          175.4401092529297
+        ],
+        "block_text": "Siret : 98141753800015\nCode NAF : 4932Z\n\nUrssaf :\nConvention : 0016 - Convention collective nationale des transports routiers et activités auxiliaires du transport"
+      },
+      {
+        "value": "None",
+        "block_id": "103",
+        "confidence": 0.4036877155303955,
+        "bounding_box": [
+          15.855915069580078,
+          1050.81201171875,
+          1144.57958984375,
+          1132.9273681640625
+        ],
+        "block_text": "Heures période | 151,67 | Cumul bases | 26 000,00 € | Total cot. patronales | 1 677,93 €\nCumul heures | 758,35 | Cumul bruts | 26 000,00 € | Total des retenues | 2 525,49 €\nCumul heures sup. | 0,00 | Cumul imposable | 21 762,20 € | Coût global période | 6 877,93 €"
+      },
+      {
+        "value": "83130",
+        "block_id": "104",
+        "confidence": 0.3906595706939697,
+        "bounding_box": [
+          706.838134765625,
+          262.4869079589844,
+          754.374267578125,
+          273.69976806640625
+        ],
+        "block_text": "83130"
+      },
+      {
+        "value": "N8",
+        "block_id": "108",
+        "confidence": 0.38709521293640137,
+        "bounding_box": [
+          94.42010498046875,
+          239.04005432128906,
+          112.03582763671875,
+          250.1885223388672
+        ],
+        "block_text": "N^{8}"
+      },
+      {
+        "value": "4932Z",
+        "block_id": "111",
+        "confidence": 0.3680642247200012,
+        "bounding_box": [
+          97.49748229980469,
+          93.03067016601562,
+          548.8099365234375,
+          176.51356506347656
+        ],
+        "block_text": "83130 La Garde\n\n**Siret :** 98141753800015 **Code NAF :** 4932Z\n\n**Urssaf :**\n\n**Convention :** 0016 - Convention collective nationale des transports routiers et activités auxiliaires du transport"
+      },
+      {
+        "value": "83130",
+        "block_id": "113",
+        "confidence": 0.3625556528568268,
+        "bounding_box": [
+          706.8648071289062,
+          262.5829772949219,
+          751.8284301757812,
+          273.71820068359375
+        ],
+        "block_text": "83130"
+      },
+      {
+        "value": "83130",
+        "block_id": "114",
+        "confidence": 0.3577781319618225,
+        "bounding_box": [
+          707.2833862304688,
+          262.003662109375,
+          813.903076171875,
+          273.98565673828125
+        ],
+        "block_text": "83130 La Garde"
+      },
+      {
+        "value": "IMAN MAHROUG",
+        "block_id": "115",
+        "confidence": 0.35569220781326294,
+        "bounding_box": [
+          706.0595092773438,
+          221.11634826660156,
+          904.0011596679688,
+          275.1745300292969
+        ],
+        "block_text": "IMAN MAHROUG\n321 Impasse Eugène Boudin,\n83130 La Garde"
+      },
+      {
+        "value": "IMAN MAHROUG",
+        "block_id": "118",
+        "confidence": 0.33617520332336426,
+        "bounding_box": [
+          706.6531982421875,
+          221.1151580810547,
+          903.8355102539062,
+          238.875
+        ],
+        "block_text": "IMAN MAHROUG"
+      },
+      {
+        "value": "123",
+        "block_id": "124",
+        "confidence": 0.32152655720710754,
+        "bounding_box": [
+          98.79285430908203,
+          74.18644714355469,
+          286.7311096191406,
+          87.94544982910156
+        ],
+        "block_text": "123 Impasse Eugène Boudin"
+      },
+      {
+        "value": "4204,28",
+        "block_id": "126",
+        "confidence": 0.308574914932251,
+        "bounding_box": [
+          945.5524291992188,
+          963.0135498046875,
+          1061.7021484375,
+          984.0245361328125
+        ],
+        "block_text": "4 204,28 €"
+      },
+      {
+        "value": "4932Z",
+        "block_id": "127",
+        "confidence": 0.3082611560821533,
+        "bounding_box": [
+          98.4158706665039,
+          107.97052764892578,
+          474.8777160644531,
+          123.29461669921875
+        ],
+        "block_text": "Siret : 98141753800015\nCode NAF : 4932Z"
+      },
+      {
+        "value": "3 925,00 €",
+        "block_id": "129",
+        "confidence": 0.30329570174217224,
+        "bounding_box": [
+          94.73454284667969,
+          321.8210144042969,
+          355.7029113769531,
+          337.65533447265625
+        ],
+        "block_text": "Plafond Sécurité Sociale : 3 925,00 €"
+      }
+    ]
+  }
+}

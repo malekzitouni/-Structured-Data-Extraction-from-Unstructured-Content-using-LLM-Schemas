@@ -1,0 +1,12 @@
+{
+  "invoice_no": null,
+  "tax_id": null,
+  "date_of_issue": null,
+  "iban": null,
+  "address_client": null,
+  "address_seller": null,
+  "net_worth": null,
+  "vat_percent": null,
+  "gross_worth": null,
+  "gross_worth_total": null
+}

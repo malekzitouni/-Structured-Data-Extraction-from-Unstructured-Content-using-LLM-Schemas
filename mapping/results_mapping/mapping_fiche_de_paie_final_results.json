@@ -1,0 +1,15 @@
+{
+  "structured_data": {
+    "Code NAF ": null
+  },
+  "source_traceability": {
+    "Code NAF ": null
+  },
+  "dual_llm_usage_summary": {
+    "mistral_extraction_calls": 130,
+    "mistral_callback_calls": 0,
+    "total_mistral_calls": 130,
+    "tinyllama_validation_calls": 0,
+    "architecture": "TinyLlama validator with Mistral callbacks"
+  }
+}

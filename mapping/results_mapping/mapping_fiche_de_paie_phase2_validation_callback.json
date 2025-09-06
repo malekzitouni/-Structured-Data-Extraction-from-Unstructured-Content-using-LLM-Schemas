@@ -1,0 +1,14 @@
+{
+  "final_resolved_values": {
+    "Code NAF ": null
+  },
+  "source_block_mapping": {
+    "Code NAF ": null
+  },
+  "validator_callback_statistics": {
+    "tinyllama_validation_calls": 0,
+    "mistral_callback_calls": 0,
+    "conflicts_detected_by_validator": 0,
+    "conflicts_resolved_by_callback": 0
+  }
+}

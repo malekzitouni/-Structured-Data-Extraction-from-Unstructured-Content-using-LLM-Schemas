@@ -1,0 +1,14 @@
+{
+  "mistral_enhanced_extractions": {
+    "Code NAF ": null
+  },
+  "all_candidates_with_enhanced_metadata": {
+    "Code NAF ": []
+  },
+  "extraction_statistics": {
+    "mistral_extraction_calls": 130,
+    "total_candidates_found": 0,
+    "fields_with_candidates": 0,
+    "extraction_methods_used": []
+  }
+}

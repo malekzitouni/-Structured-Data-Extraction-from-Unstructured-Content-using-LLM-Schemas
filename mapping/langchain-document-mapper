@@ -1,0 +1,211 @@
+# LangChain Schema Mapper Documentation
+
+## Overview
+
+This **Python script** implements a **LLM-powered schema mapping system** that transforms extracted OCR data into structured formats using **LangChain** and **Hugging Face models**. It provides intelligent field mapping with natural language understanding for document processing workflows.
+
+## Core Architecture
+
+### **LangChain Integration**
+- **HuggingFaceEndpoint**: Cloud-based model access via Hugging Face API
+- **PromptTemplate**: Structured prompt engineering for consistent results
+- **LLMChain**: Orchestrated prompt-to-response pipeline
+- **Error Handling**: Robust JSON parsing with fallback mechanisms
+
+### **Key Components**
+- **SchemaMapper Class**: Main orchestration engine
+- **Prompt Engineering**: Carefully crafted instructions for accurate mapping
+- **JSON Processing**: Clean extraction and validation of structured output
+- **Logging System**: Comprehensive error tracking and debugging
+
+## Features & Capabilities
+
+### **Intelligent Mapping**
+- **Natural language schema interpretation** using LLM understanding
+- **Flexible data type handling** (string, integer, date formats)
+- **Missing value management** with null assignment
+- **Format preservation** maintaining original data characteristics
+
+### **LLM Configuration**
+- **Temperature Control**: Low temperature (0.1) for consistent outputs
+- **Token Management**: 2048 max length for detailed responses
+- **Quality Parameters**: Top-p sampling and repetition penalty tuning
+- **Model Flexibility**: Configurable Hugging Face model selection
+
+### **Data Processing**
+- **Multi-block input handling** from OCR systems
+- **Schema validation** against target structure
+- **JSON output generation** with proper formatting
+- **Error recovery** for malformed responses
+
+## Technical Implementation
+
+### **Model Configuration**
+```python
+HuggingFaceEndpoint(
+    repo_id="mistralai/Mistral-7B-Instruct-v0.1",
+    temperature=0.1,          # Low for consistency
+    max_length=2048,          # Sufficient for complex mappings
+    top_p=0.95,               # Focused sampling
+    repetition_penalty=1.15   # Reduces repetitive output
+)
+```
+
+### **Prompt Engineering**
+The script uses a **structured prompt template** with:
+- **Clear role definition**: "Expert in structured data extraction"
+- **Specific instructions**: Exact mapping requirements
+- **Output format specification**: Valid JSON structure requirements
+- **Data preservation rules**: Formatting and accuracy guidelines
+
+## Processing Workflow
+
+### **Step 1: Initialization**
+```python
+mapper = SchemaMapper(llm_model="mistralai/Mistral-7B-Instruct-v0.1")
+```
+
+### **Step 2: Data Preparation**
+- Converts extracted OCR data to JSON string format
+- Formats schema definition for LLM consumption
+- Validates input data structure and types
+
+### **Step 3: LLM Processing**
+```python
+llm_chain = LLMChain(llm=self.llm, prompt=self.prompt_template)
+result = llm_chain.run({"extracted_data": data, "schema_definition": schema})
+```
+
+### **Step 4: Response Processing**
+- Locates JSON boundaries in LLM response
+- Extracts clean JSON string
+- Parses and validates structured output
+- Returns mapped data or empty dict on failure
+
+## Input Data Format
+
+### **OCR Block Structure**
+```python
+[
+    {
+        "label": "text|title|table|section-header",
+        "text": "Extracted content",
+        "confidence": 0.0-1.0
+    }
+]
+```
+
+### **Schema Definition Format**
+```python
+{
+    "field_name": "data_type",
+    "full_name": "string",
+    "account_number": "integer",
+    "date_of_birth": "string"
+}
+```
+
+## Output Structure
+
+### **Mapped Result Example**
+```json
+{
+    "full_name": "John David Anderson",
+    "date_of_birth": "1985-07-15",
+    "account_type": "Savings Account",
+    "account_number": 1234567890
+}
+```
+
+## Example Usage
+
+### **Basic Implementation**
+```python
+# Initialize mapper
+mapper = SchemaMapper()
+
+# Define schema
+schema = {
+    "customer_name": "string",
+    "account_id": "integer",
+    "balance": "string"
+}
+
+# Process OCR data
+mapped_result = mapper.map_to_schema(ocr_blocks, schema)
+```
+
+## Use Cases & Applications
+
+### **Financial Document Processing**
+- **Bank form digitization** with automatic field mapping
+- **Invoice data extraction** to accounting systems
+- **Insurance claim processing** with structured output
+- **Tax document parsing** for compliance workflows
+
+### **Business Process Automation**
+- **Customer onboarding** form processing
+- **Contract data extraction** for legal systems
+- **HR document digitization** for employee records
+- **Compliance reporting** with structured data requirements
+
+### **Data Integration Projects**
+- **Legacy system migration** with schema transformation
+- **Multi-source data consolidation** from various document types
+- **API data preparation** for downstream systems
+- **Database population** from unstructured documents
+
+## Advantages
+
+### **Simplicity**
+- **Minimal dependencies**: LangChain + Hugging Face
+- **Cloud-based processing**: No local model requirements
+- **Easy integration**: Simple API-style interface
+- **Quick deployment**: Minimal setup and configuration
+
+### **Flexibility**
+- **Configurable models**: Easy Hugging Face model switching
+- **Schema adaptability**: Works with any field structure
+- **Data type handling**: Automatic type inference and conversion
+- **Error tolerance**: Graceful handling of malformed inputs
+
+### **Reliability**
+- **Proven frameworks**: LangChain stability and maturity
+- **JSON validation**: Structured output verification
+- **Error logging**: Comprehensive debugging information
+- **Fallback behavior**: Safe defaults for failure cases
+
+## Limitations & Considerations
+
+### **API Dependencies**
+- **Internet connection required** for Hugging Face endpoint access
+- **Rate limiting** may apply based on usage patterns
+- **Model availability** depends on Hugging Face service status
+
+### **Processing Constraints**
+- **Token limits** restrict input document size
+- **Response latency** varies with model and network conditions
+- **Cost considerations** for high-volume processing
+
+---
+
+## Suggested Script Names
+
+### **Current Name Analysis**
+The script appears to be unnamed in the provided code. Here are recommendations:
+
+### **Recommended Names**
+1. **`langchain_schema_mapper.py`**
+2. **`huggingface_field_extractor.py`**
+3. **`llm_document_mapper.py`**
+4. **`intelligent_schema_processor.py`**
+5. **`cloud_based_field_mapper.py`**
+
+### **Simple & Direct**
+6. **`schema_mapper.py`**
+7. **`field_extractor.py`**
+8. **`document_mapper.py`**
+9. **`data_mapper.py`**
+10. **`ocr_to_schema.py`**
+
+**Recommendation**: `langchain_schema_mapper.py` - clearly identifies the framework and primary function.

@@ -1,0 +1,214 @@
+{
+  "company": {
+    "name": {
+      "description": "Name of the company",
+      "data_type": "string"
+    },
+    "address": {
+      "description": "Company address",
+      "data_type": "string"
+    },
+    "siret": {
+      "description": "Company SIRET number",
+      "data_type": "string"
+    },
+    "code_naf": {
+      "description": "Company NAF code",
+      "data_type": "string"
+    },
+    "urssaf": {
+      "description": "URSSAF details",
+      "data_type": "string"
+    },
+    "convention": {
+      "description": "Collective agreement details",
+      "data_type": "string"
+    }
+  },
+  "employee": {
+    "matricule": {
+      "description": "Employee ID number",
+      "data_type": "string"
+    },
+    "social_security_number": {
+      "description": "Employee social security number",
+      "data_type": "string"
+    },
+    "entry_date": {
+      "description": "Employment start date",
+      "data_type": "string"
+    },
+    "job_title": {
+      "description": "Employee job title",
+      "data_type": "string"
+    },
+    "qualification": {
+      "description": "Employee qualification",
+      "data_type": "string"
+    },
+    "coefficient": {
+      "description": "Employee coefficient",
+      "data_type": "number"
+    },
+    "social_security_ceiling": {
+      "description": "Social security ceiling amount",
+      "data_type": "string"
+    },
+    "contract_type": {
+      "description": "Contract type",
+      "data_type": "string"
+    }
+  },
+  "pay_period": {
+    "start_date": {
+      "description": "Start date of the pay period",
+      "data_type": "string"
+    },
+    "end_date": {
+      "description": "End date of the pay period",
+      "data_type": "string"
+    },
+    "payment_date": {
+      "description": "Payment date",
+      "data_type": "string"
+    }
+  },
+  "employee_address": {
+    "name": {
+      "description": "Employee name",
+      "data_type": "string"
+    },
+    "address": {
+      "description": "Employee address",
+      "data_type": "string"
+    }
+  },
+  "salary_details": [
+    {
+      "category": {
+        "description": "Salary category or rubric",
+        "data_type": "string"
+      },
+      "base": {
+        "description": "Base amount in euros",
+        "data_type": "string"
+      },
+      "employee_rate": {
+        "description": "Employee contribution rate",
+        "data_type": "number"
+      },
+      "employee_contribution": {
+        "description": "Employee contribution amount in euros",
+        "data_type": "string"
+      },
+      "employer_rate": {
+        "description": "Employer contribution rate",
+        "data_type": "number"
+      },
+      "employer_contribution": {
+        "description": "Employer contribution amount in euros",
+        "data_type": "string"
+      }
+    }
+  ],
+  "totals": {
+    "total_deductions": {
+      "description": "Total deductions amount in euros",
+      "data_type": "string"
+    },
+    "total_employer_contributions": {
+      "description": "Total employer contributions amount in euros",
+      "data_type": "string"
+    },
+    "net_social_amount": {
+      "description": "Net social amount in euros",
+      "data_type": "string"
+    },
+    "net_pay_before_tax": {
+      "description": "Net pay before income tax in euros",
+      "data_type": "string"
+    },
+    "net_pay_after_tax": {
+      "description": "Net pay after income tax in euros",
+      "data_type": "string"
+    },
+    "taxable_csg_crds": {
+      "description": "Taxable CSG/CRDS amount in euros",
+      "data_type": "string"
+    }
+  },
+  "hours_and_cumulative": {
+    "hours_period": {
+      "description": "Hours worked during the period",
+      "data_type": "number"
+    },
+    "total_hours": {
+      "description": "Total hours worked",
+      "data_type": "number"
+    },
+    "total_overtime_hours": {
+      "description": "Total overtime hours worked",
+      "data_type": "number"
+    },
+    "cumulative_bases": {
+      "description": "Cumulative bases in euros",
+      "data_type": "string"
+    },
+    "cumulative_gross": {
+      "description": "Cumulative gross salary in euros",
+      "data_type": "string"
+    },
+    "cumulative_taxable": {
+      "description": "Cumulative taxable amount in euros",
+      "data_type": "string"
+    },
+    "total_employer_contributions": {
+      "description": "Total employer contributions in euros",
+      "data_type": "string"
+    },
+    "total_deductions": {
+      "description": "Total deductions in euros",
+      "data_type": "string"
+    },
+    "total_cost_period": {
+      "description": "Total cost of the period in euros",
+      "data_type": "string"
+    }
+  },
+  "income_tax": {
+    "taxable_net_amount": {
+      "description": "Taxable net income in euros",
+      "data_type": "string"
+    },
+    "withholding_tax": {
+      "description": "Withholding tax amount in euros",
+      "data_type": "string"
+    },
+    "annual_cumulative_tax": {
+      "description": "Annual cumulative tax amount in euros",
+      "data_type": "string"
+    },
+    "exempt_hours_amount": {
+      "description": "Amount for exempt overtime hours",
+      "data_type": "string"
+    }
+  },
+  "paid_leave": {
+    "in_progress": {
+      "description": "Paid leave days in progress",
+      "data_type": "number"
+    },
+    "acquired": {
+      "description": "Paid leave days acquired",
+      "data_type": "number"
+    },
+    "taken": {
+      "description": "Paid leave days taken",
+      "data_type": "number"
+    },
+    "balance": {
+      "description": "Remaining paid leave days",
+      "data_type": "number"
+    }
+  }
+}

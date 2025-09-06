@@ -1,0 +1,74 @@
+{
+  "fields": {
+    "invoice_no": {
+      "description": "Unique invoice identification number",
+      "data_type": "string",
+      "synonyms": [],
+      "extraction_instructions": "",
+      "context_keywords": []
+    },
+    "tax_id": {
+      "description": "Seller's tax identification number",
+      "data_type": "string",
+      "synonyms": [],
+      "extraction_instructions": "",
+      "context_keywords": []
+    },
+    "date_of_issue": {
+      "description": "Date the invoice was issued in MM/DD/YYYY format",
+      "data_type": "date",
+      "synonyms": [],
+      "extraction_instructions": "",
+      "context_keywords": []
+    },
+    "IBAN": {
+      "description": "Seller's International Bank Account Number",
+      "data_type": "string",
+      "synonyms": [],
+      "extraction_instructions": "",
+      "context_keywords": []
+    },
+    "address_client": {
+      "description": "Client's street address",
+      "data_type": "string",
+      "synonyms": [],
+      "extraction_instructions": "",
+      "context_keywords": []
+    },
+    "address_seller": {
+      "description": "Client's street address",
+      "data_type": "string",
+      "synonyms": [],
+      "extraction_instructions": "",
+      "context_keywords": []
+    },
+    "net_worth": {
+      "description": "Total price for the quantity excluding tax",
+      "data_type": "string",
+      "synonyms": [],
+      "extraction_instructions": "",
+      "context_keywords": []
+    },
+    "vat_percent": {
+      "description": "Value Added Tax rate applied to the item",
+      "data_type": "string",
+      "synonyms": [],
+      "extraction_instructions": "",
+      "context_keywords": []
+    },
+    "gross_worth": {
+      "description": "Total price including tax",
+      "data_type": "string",
+      "synonyms": [],
+      "extraction_instructions": "",
+      "context_keywords": []
+    },
+    "gross_worth_total": {
+      "description": "Total gross worth including tax",
+      "data_type": "string",
+      "synonyms": [],
+      "extraction_instructions": "",
+      "context_keywords": []
+    }
+  }
+}

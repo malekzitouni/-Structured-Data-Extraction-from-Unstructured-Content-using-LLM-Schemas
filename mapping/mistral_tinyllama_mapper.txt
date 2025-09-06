@@ -1,0 +1,128 @@
+Enhanced Schema Mapping Script
+Overview
+enhanced_schema_mapping.py is a sophisticated document processing tool that extracts structured data from OCR text blocks using a dual-model approach with Mistral and TinyLlama language models. The system maps unstructured text to a defined schema with enhanced field analysis, conflict resolution, and comprehensive result tracking.
+
+Key Features
+Dual-Model Architecture
+Mistral Model: Primary extraction and conflict resolution
+
+TinyLlama Model: Field analysis and validation
+
+Schema Enhancement
+Automatically generates synonyms, extraction instructions, and context keywords for each field
+
+Validates data types and field definitions
+
+Advanced Processing
+Multi-field extraction from text blocks
+
+Conflict detection and resolution for conflicting values
+
+Source traceability to original document blocks
+
+Comprehensive validation of candidate values
+
+Data Models
+FieldDefinition
+python
+class FieldDefinition(BaseModel):
+    description: str
+    data_type: str
+    synonyms: List[str]
+    extraction_instructions: str
+    context_keywords: List[str]
+SchemaModel
+python
+class SchemaModel(BaseModel):
+    fields: Dict[str, FieldDefinition]
+BlockData
+python
+class BlockData(BaseModel):
+    block_id: str
+    label: str
+    confidence: float
+    bounding_box: List[float]
+    text: str
+Processing Pipeline
+Input Loading
+
+Load and validate schema definition
+
+Load OCR block data with preprocessing
+
+Schema Enhancement
+
+Analyze each field to generate synonyms and context keywords
+
+Create extraction instructions based on field characteristics
+
+Document Processing
+
+Extract all schema fields from each text block
+
+Collect candidate values with source information
+
+Conflict Resolution
+
+Validate if candidate values represent real conflicts
+
+Resolve conflicts using contextual analysis
+
+Select best value based on multiple criteria
+
+Result Export
+
+Save comprehensive results with full metadata
+
+Export structured data, enhanced schema, and processing metrics
+
+Usage
+bash
+python enhanced_schema_mapping.py \
+    --blocks path/to/ocr_blocks.json \
+    --schema path/to/schema_definition.json \
+    --mistral-model path/to/mistral-model \
+    --tinyllama-model path/to/tinyllama-model \
+    --output results/output_base_name
+Optional Parameters
+--image: Source document image path (for reference)
+
+--output: Output file base name (default: "schema_mapping_results")
+
+Output Files
+{output_base_name}_full_results.json: Complete processing results with metadata
+
+{output_base_name}_values.json: Extracted structured data only
+
+{output_base_name}_enhanced_schema.json: Enhanced schema with generated metadata
+
+Performance Metrics
+The script tracks and reports:
+
+Model call counts (Mistral and TinyLlama)
+
+Fields with candidate values
+
+Conflicts detected and resolved
+
+Processing efficiency metrics
+
+Error Handling
+Comprehensive validation of input data
+
+Graceful fallbacks for model failures
+
+Detailed logging of processing steps
+
+JSON parsing with robust error recovery
+
+Dependencies
+PyTorch
+
+Transformers library
+
+Pydantic
+
+Standard Python libraries (json, argparse, logging, os, re, typing)
+
+This script provides a robust solution for converting unstructured document data into structured format using advanced NLP techniques with local LLMs.

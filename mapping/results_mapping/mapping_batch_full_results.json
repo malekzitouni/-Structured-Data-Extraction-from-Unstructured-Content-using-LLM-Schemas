@@ -1,0 +1,1727 @@
+{
+  "enhanced_schema": {
+    "fields": {
+      "invoice_no": {
+        "description": "Unique invoice identification number",
+        "data_type": "string",
+        "synonyms": [],
+        "extraction_instructions": "",
+        "context_keywords": []
+      },
+      "tax_id": {
+        "description": "Seller's tax identification number",
+        "data_type": "string",
+        "synonyms": [],
+        "extraction_instructions": "",
+        "context_keywords": []
+      },
+      "date_of_issue": {
+        "description": "Date the invoice was issued in MM/DD/YYYY format",
+        "data_type": "date",
+        "synonyms": [],
+        "extraction_instructions": "",
+        "context_keywords": []
+      },
+      "IBAN": {
+        "description": "Seller's International Bank Account Number",
+        "data_type": "string",
+        "synonyms": [],
+        "extraction_instructions": "",
+        "context_keywords": []
+      },
+      "address_client": {
+        "description": "Client's street address",
+        "data_type": "string",
+        "synonyms": [],
+        "extraction_instructions": "",
+        "context_keywords": []
+      },
+      "address_seller": {
+        "description": "Client's street address",
+        "data_type": "string",
+        "synonyms": [],
+        "extraction_instructions": "",
+        "context_keywords": []
+      },
+      "net_worth": {
+        "description": "Total price for the quantity excluding tax",
+        "data_type": "string",
+        "synonyms": [],
+        "extraction_instructions": "",
+        "context_keywords": []
+      },
+      "vat_percent": {
+        "description": "Value Added Tax rate applied to the item",
+        "data_type": "string",
+        "synonyms": [],
+        "extraction_instructions": "",
+        "context_keywords": []
+      },
+      "gross_worth": {
+        "description": "Total price including tax",
+        "data_type": "string",
+        "synonyms": [],
+        "extraction_instructions": "",
+        "context_keywords": []
+      },
+      "gross_worth_total": {
+        "description": "Total gross worth including tax",
+        "data_type": "string",
+        "synonyms": [],
+        "extraction_instructions": "",
+        "context_keywords": []
+      }
+    }
+  },
+  "structured_data": {
+    "invoice_no": "ABC12345",
+    "tax_id": "DE123456789",
+    "date_of_issue": "01/15/2023",
+    "IBAN": "GB88 1234 5678 9012 3456 7890 1234 5678",
+    "address_client": "Becker Ltd\n8012 Stewart Summit Apt. 455\nNorth Douglas, AZ 95355",
+    "address_seller": "456 Elm St, Anytown, Anystate, 67890",
+    "net_worth": "5640.17",
+    "vat_percent": "10%",
+    "gross_worth": "6204.19",
+    "gross_worth_total": "6204.19"
+  },
+  "source_traceability": {
+    "invoice_no": "4",
+    "tax_id": "4",
+    "date_of_issue": "4",
+    "IBAN": "4",
+    "address_client": "2",
+    "address_seller": "4",
+    "net_worth": "1",
+    "vat_percent": "1",
+    "gross_worth": "1",
+    "gross_worth_total": "1"
+  },
+  "processing_metadata": {
+    "mistral_extractions": 40,
+    "mistral_conflict_resolutions": 7,
+    "tinyllama_validations": 10,
+    "tinyllama_field_analyses": 10,
+    "fields_with_candidates": 10,
+    "conflicts_detected": 7,
+    "conflicts_resolved": 7
+  },
+  "all_candidates": {
+    "invoice_no": [
+      {
+        "value": "ABC12345",
+        "block_id": "4",
+        "confidence": 0.9202324748039246,
+        "bounding_box": [
+          133.9689178466797,
+          760.8466186523438,
+          245.8738555908203,
+          789.2060546875
+        ],
+        "block_text": "ITEMS"
+      },
+      {
+        "value": "ABC12345",
+        "block_id": "5",
+        "confidence": 0.907884955406189,
+        "bounding_box": [
+          825.956787109375,
+          444.9659729003906,
+          947.0271606445312,
+          473.4598693847656
+        ],
+        "block_text": "Client:"
+      },
+      {
+        "value": "942-80-0517",
+        "block_id": "6",
+        "confidence": 0.8985556960105896,
+        "bounding_box": [
+          935.7579956054688,
+          650.6498413085938,
+          1116.23046875,
+          675.8106689453125
+        ],
+        "block_text": "942-80-0517"
+      },
+      {
+        "value": "INV001",
+        "block_id": "9",
+        "confidence": 0.8872629404067993,
+        "bounding_box": [
+          132.4087677001953,
+          1715.204345703125,
+          327.2047119140625,
+          1743.799560546875
+        ],
+        "block_text": "SUMMARY"
+      },
+      {
+        "value": "ABC12345",
+        "block_id": "10",
+        "confidence": 0.8856250047683716,
+        "bounding_box": [
+          132.9769744873047,
+          444.42156982421875,
+          252.46241760253906,
+          473.6143493652344
+        ],
+        "block_text": "Seller:"
+      },
+      {
+        "value": "51109338",
+        "block_id": "12",
+        "confidence": 0.8674120306968689,
+        "bounding_box": [
+          350.4154052734375,
+          75.35799407958984,
+          535.0926513671875,
+          103.09954071044922
+        ],
+        "block_text": "51109338"
+      },
+      {
+        "value": "GB75MCRL06841367619257",
+        "block_id": "13",
+        "confidence": 0.8623987436294556,
+        "bounding_box": [
+          221.38589477539062,
+          685.6211547851562,
+          627.0400390625,
+          710.5045166015625
+        ],
+        "block_text": "GB75MCRL06841367619257"
+      },
+      {
+        "value": "Invoice no:",
+        "block_id": "15",
+        "confidence": 0.8428977131843567,
+        "bounding_box": [
+          133.3135986328125,
+          74.44454193115234,
+          337.21356201171875,
+          102.83554077148438
+        ],
+        "block_text": "Invoice no:"
+      },
+      {
+        "value": "945-82-2137",
+        "block_id": "17",
+        "confidence": 0.8195399045944214,
+        "bounding_box": [
+          238.61526489257812,
+          650.7023315429688,
+          423.7377624511719,
+          675.4348754882812
+        ],
+        "block_text": "945-82-2137"
+      },
+      {
+        "value": "51109338",
+        "block_id": "21",
+        "confidence": 0.5757466554641724,
+        "bounding_box": [
+          133.55335998535156,
+          74.47105407714844,
+          535.4697265625,
+          103.38741302490234
+        ],
+        "block_text": "Invoice no: 51109338"
+      },
+      {
+        "value": "51109338",
+        "block_id": "23",
+        "confidence": 0.45822522044181824,
+        "bounding_box": [
+          132.94549560546875,
+          74.24197387695312,
+          536.939208984375,
+          170.44508361816406
+        ],
+        "block_text": "Invoice no: 51109338\n\nDate of issue:"
+      },
+      {
+        "value": "51109338",
+        "block_id": "24",
+        "confidence": 0.45353496074676514,
+        "bounding_box": [
+          133.55335998535156,
+          74.47105407714844,
+          535.4697265625,
+          103.38741302490234
+        ],
+        "block_text": "Invoice no: 51109338"
+      },
+      {
+        "value": "INV001",
+        "block_id": "28",
+        "confidence": 0.3841829001903534,
+        "bounding_box": [
+          132.9769744873047,
+          444.42156982421875,
+          252.46241760253906,
+          473.6143493652344
+        ],
+        "block_text": "Seller:"
+      },
+      {
+        "value": "51109338",
+        "block_id": "32",
+        "confidence": 0.3597140908241272,
+        "bounding_box": [
+          133.55335998535156,
+          74.47105407714844,
+          535.4697265625,
+          103.38741302490234
+        ],
+        "block_text": "Invoice no: 51109338"
+      },
+      {
+        "value": "345678",
+        "block_id": "34",
+        "confidence": 0.32557937502861023,
+        "bounding_box": [
+          139.50205993652344,
+          507.0655517578125,
+          267.0743713378906,
+          532.9568481445312
+        ],
+        "block_text": "Andrews,"
+      },
+      {
+        "value": "INV001",
+        "block_id": "35",
+        "confidence": 0.32250961661338806,
+        "bounding_box": [
+          132.4087677001953,
+          1715.204345703125,
+          327.2047119140625,
+          1743.799560546875
+        ],
+        "block_text": "SUMMARY"
+      },
+      {
+        "value": "Invoice no:",
+        "block_id": "37",
+        "confidence": 0.3054823577404022,
+        "bounding_box": [
+          133.3135986328125,
+          74.44454193115234,
+          337.21356201171875,
+          102.83554077148438
+        ],
+        "block_text": "Invoice no:"
+      },
+      {
+        "value": "51109338",
+        "block_id": "38",
+        "confidence": 0.3040855824947357,
+        "bounding_box": [
+          350.4154052734375,
+          75.35799407958984,
+          535.0926513671875,
+          103.09954071044922
+        ],
+        "block_text": "51109338"
+      }
+    ],
+    "tax_id": [
+      {
+        "value": "DE123456789",
+        "block_id": "4",
+        "confidence": 0.9202324748039246,
+        "bounding_box": [
+          133.9689178466797,
+          760.8466186523438,
+          245.8738555908203,
+          789.2060546875
+        ],
+        "block_text": "ITEMS"
+      },
+      {
+        "value": "DE123456789",
+        "block_id": "5",
+        "confidence": 0.907884955406189,
+        "bounding_box": [
+          825.956787109375,
+          444.9659729003906,
+          947.0271606445312,
+          473.4598693847656
+        ],
+        "block_text": "Client:"
+      },
+      {
+        "value": "XXX.XXX.XXX/XX-XX-XX",
+        "block_id": "8",
+        "confidence": 0.8886567950248718,
+        "bounding_box": [
+          832.6076049804688,
+          651.52978515625,
+          924.3295288085938,
+          675.9462890625
+        ],
+        "block_text": "Tax Id:"
+      },
+      {
+        "value": "DE123456789",
+        "block_id": "9",
+        "confidence": 0.8872629404067993,
+        "bounding_box": [
+          132.4087677001953,
+          1715.204345703125,
+          327.2047119140625,
+          1743.799560546875
+        ],
+        "block_text": "SUMMARY"
+      },
+      {
+        "value": "DE123456789",
+        "block_id": "10",
+        "confidence": 0.8856250047683716,
+        "bounding_box": [
+          132.9769744873047,
+          444.42156982421875,
+          252.46241760253906,
+          473.6143493652344
+        ],
+        "block_text": "Seller:"
+      },
+      {
+        "value": "945-82-2137",
+        "block_id": "11",
+        "confidence": 0.8779975175857544,
+        "bounding_box": [
+          139.85670471191406,
+          650.6483154296875,
+          628.2139892578125,
+          711.03466796875
+        ],
+        "block_text": "Tax Id: 945-82-2137\nIBAN: GB75MCRL06841367619257"
+      },
+      {
+        "value": "942-80-0517",
+        "block_id": "16",
+        "confidence": 0.8229990005493164,
+        "bounding_box": [
+          832.4620361328125,
+          650.973876953125,
+          1116.6220703125,
+          677.2357788085938
+        ],
+        "block_text": "Tax Id: 942-80-0517"
+      },
+      {
+        "value": "Tax Id",
+        "block_id": "18",
+        "confidence": 0.8106691241264343,
+        "bounding_box": [
+          139.4762420654297,
+          650.8539428710938,
+          229.46478271484375,
+          676.3331909179688
+        ],
+        "block_text": "Tax Id"
+      },
+      {
+        "value": "942-80-0517",
+        "block_id": "25",
+        "confidence": 0.43686699867248535,
+        "bounding_box": [
+          139.5564422607422,
+          503.831787109375,
+          1267.7000732421875,
+          713.9268188476562
+        ],
+        "block_text": "Andrews, Kirby and Valdez\n58861 Gonzalez Prairie\nLake Daniellefurt, IN 57228\n\nBecker Ltd\n8012 Stewart Summit Apt. 455\nNorth Douglas, AZ 95355\n\nTax Id: 945-82-2137\nIBAN: GB75MCRL06841367619257\n\nTax Id: 942-80-0517"
+      },
+      {
+        "value": "945-82-2137",
+        "block_id": "26",
+        "confidence": 0.4158473014831543,
+        "bounding_box": [
+          139.05845642089844,
+          503.6292419433594,
+          628.6273803710938,
+          713.441162109375
+        ],
+        "block_text": "Andrews, Kirby and Valdez\n58861 Gonzalez Prairie\nLake Daniellefurt, IN 57228\n\nTax Id: 945-82-2137\nIBAN: GB75MCRL06841367619257"
+      },
+      {
+        "value": "DE123456789",
+        "block_id": "28",
+        "confidence": 0.3841829001903534,
+        "bounding_box": [
+          132.9769744873047,
+          444.42156982421875,
+          252.46241760253906,
+          473.6143493652344
+        ],
+        "block_text": "Seller:"
+      },
+      {
+        "value": "BECKER LTD",
+        "block_id": "29",
+        "confidence": 0.383190393447876,
+        "bounding_box": [
+          833.8482055664062,
+          507.0731201171875,
+          983.2609252929688,
+          533.8848266601562
+        ],
+        "block_text": "Becker Ltd"
+      },
+      {
+        "value": "Kirby and Valdez",
+        "block_id": "31",
+        "confidence": 0.36352649331092834,
+        "bounding_box": [
+          278.435302734375,
+          507.5530700683594,
+          514.5230712890625,
+          536.6829833984375
+        ],
+        "block_text": "Kirby and Valdez"
+      },
+      {
+        "value": "GB123456789",
+        "block_id": "34",
+        "confidence": 0.32557937502861023,
+        "bounding_box": [
+          139.50205993652344,
+          507.0655517578125,
+          267.0743713378906,
+          532.9568481445312
+        ],
+        "block_text": "Andrews,"
+      },
+      {
+        "value": "DE123456789",
+        "block_id": "35",
+        "confidence": 0.32250961661338806,
+        "bounding_box": [
+          132.4087677001953,
+          1715.204345703125,
+          327.2047119140625,
+          1743.799560546875
+        ],
+        "block_text": "SUMMARY"
+      },
+      {
+        "value": "8012",
+        "block_id": "39",
+        "confidence": 0.30340680480003357,
+        "bounding_box": [
+          833.65771484375,
+          544.210693359375,
+          1021.923828125,
+          570.3093872070312
+        ],
+        "block_text": "8012 Stewart"
+      }
+    ],
+    "date_of_issue": [
+      {
+        "value": "01/15/2023",
+        "block_id": "4",
+        "confidence": 0.9202324748039246,
+        "bounding_box": [
+          133.9689178466797,
+          760.8466186523438,
+          245.8738555908203,
+          789.2060546875
+        ],
+        "block_text": "ITEMS"
+      },
+      {
+        "value": "01/15/2023",
+        "block_id": "5",
+        "confidence": 0.907884955406189,
+        "bounding_box": [
+          825.956787109375,
+          444.9659729003906,
+          947.0271606445312,
+          473.4598693847656
+        ],
+        "block_text": "Client:"
+      },
+      {
+        "value": "Date of issue",
+        "block_id": "7",
+        "confidence": 0.8948358297348022,
+        "bounding_box": [
+          133.68878173828125,
+          142.22686767578125,
+          342.2557373046875,
+          169.20703125
+        ],
+        "block_text": "Date of issue:"
+      },
+      {
+        "value": "01/15/2022",
+        "block_id": "9",
+        "confidence": 0.8872629404067993,
+        "bounding_box": [
+          132.4087677001953,
+          1715.204345703125,
+          327.2047119140625,
+          1743.799560546875
+        ],
+        "block_text": "SUMMARY"
+      },
+      {
+        "value": "01/15/2023",
+        "block_id": "10",
+        "confidence": 0.8856250047683716,
+        "bounding_box": [
+          132.9769744873047,
+          444.42156982421875,
+          252.46241760253906,
+          473.6143493652344
+        ],
+        "block_text": "Seller:"
+      },
+      {
+        "value": "04/13/2013",
+        "block_id": "14",
+        "confidence": 0.852744996547699,
+        "bounding_box": [
+          802.7303466796875,
+          143.07144165039062,
+          977.187744140625,
+          171.49856567382812
+        ],
+        "block_text": "04/13/2013"
+      },
+      {
+        "value": "04/13/2013",
+        "block_id": "20",
+        "confidence": 0.746318519115448,
+        "bounding_box": [
+          134.4783172607422,
+          142.67236328125,
+          976.0195922851562,
+          171.7767333984375
+        ],
+        "block_text": "Date of issue: 04/13/2013"
+      },
+      {
+        "value": "04/13/2013",
+        "block_id": "22",
+        "confidence": 0.49443233013153076,
+        "bounding_box": [
+          802.7303466796875,
+          143.07144165039062,
+          977.187744140625,
+          171.49856567382812
+        ],
+        "block_text": "04/13/2013"
+      },
+      {
+        "value": "01/15/2023",
+        "block_id": "28",
+        "confidence": 0.3841829001903534,
+        "bounding_box": [
+          132.9769744873047,
+          444.42156982421875,
+          252.46241760253906,
+          473.6143493652344
+        ],
+        "block_text": "Seller:"
+      },
+      {
+        "value": "01/15/2023",
+        "block_id": "34",
+        "confidence": 0.32557937502861023,
+        "bounding_box": [
+          139.50205993652344,
+          507.0655517578125,
+          267.0743713378906,
+          532.9568481445312
+        ],
+        "block_text": "Andrews,"
+      },
+      {
+        "value": "01/15/2022",
+        "block_id": "35",
+        "confidence": 0.32250961661338806,
+        "bounding_box": [
+          132.4087677001953,
+          1715.204345703125,
+          327.2047119140625,
+          1743.799560546875
+        ],
+        "block_text": "SUMMARY"
+      },
+      {
+        "value": "04/13/2013",
+        "block_id": "36",
+        "confidence": 0.3077702820301056,
+        "bounding_box": [
+          802.4175415039062,
+          142.9512481689453,
+          977.4142456054688,
+          171.7321014404297
+        ],
+        "block_text": "04/13/2013"
+      }
+    ],
+    "IBAN": [
+      {
+        "value": "GB88 1234 5678 9012 3456 7890 1234 5678",
+        "block_id": "4",
+        "confidence": 0.9202324748039246,
+        "bounding_box": [
+          133.9689178466797,
+          760.8466186523438,
+          245.8738555908203,
+          789.2060546875
+        ],
+        "block_text": "ITEMS"
+      },
+      {
+        "value": "GB88 1234 5678 9012 3456 7890 1234 5678",
+        "block_id": "5",
+        "confidence": 0.907884955406189,
+        "bounding_box": [
+          825.956787109375,
+          444.9659729003906,
+          947.0271606445312,
+          473.4598693847656
+        ],
+        "block_text": "Client:"
+      },
+      {
+        "value": "DE8765432101123456",
+        "block_id": "9",
+        "confidence": 0.8872629404067993,
+        "bounding_box": [
+          132.4087677001953,
+          1715.204345703125,
+          327.2047119140625,
+          1743.799560546875
+        ],
+        "block_text": "SUMMARY"
+      },
+      {
+        "value": "GB88 1234 5678 9012 3456 7890 1234 5678",
+        "block_id": "10",
+        "confidence": 0.8856250047683716,
+        "bounding_box": [
+          132.9769744873047,
+          444.42156982421875,
+          252.46241760253906,
+          473.6143493652344
+        ],
+        "block_text": "Seller:"
+      },
+      {
+        "value": "GB75MCRL06841367619257",
+        "block_id": "11",
+        "confidence": 0.8779975175857544,
+        "bounding_box": [
+          139.85670471191406,
+          650.6483154296875,
+          628.2139892578125,
+          711.03466796875
+        ],
+        "block_text": "Tax Id: 945-82-2137\nIBAN: GB75MCRL06841367619257"
+      },
+      {
+        "value": "IBAN:",
+        "block_id": "19",
+        "confidence": 0.8099936842918396,
+        "bounding_box": [
+          140.36453247070312,
+          685.9846801757812,
+          214.68765258789062,
+          709.358154296875
+        ],
+        "block_text": "IBAN:"
+      },
+      {
+        "value": "GB75MCRL06841367619257",
+        "block_id": "25",
+        "confidence": 0.43686699867248535,
+        "bounding_box": [
+          139.5564422607422,
+          503.831787109375,
+          1267.7000732421875,
+          713.9268188476562
+        ],
+        "block_text": "Andrews, Kirby and Valdez\n58861 Gonzalez Prairie\nLake Daniellefurt, IN 57228\n\nBecker Ltd\n8012 Stewart Summit Apt. 455\nNorth Douglas, AZ 95355\n\nTax Id: 945-82-2137\nIBAN: GB75MCRL06841367619257\n\nTax Id: 942-80-0517"
+      },
+      {
+        "value": "GB75MCRL06841367619257",
+        "block_id": "26",
+        "confidence": 0.4158473014831543,
+        "bounding_box": [
+          139.05845642089844,
+          503.6292419433594,
+          628.6273803710938,
+          713.441162109375
+        ],
+        "block_text": "Andrews, Kirby and Valdez\n58861 Gonzalez Prairie\nLake Daniellefurt, IN 57228\n\nTax Id: 945-82-2137\nIBAN: GB75MCRL06841367619257"
+      },
+      {
+        "value": "GB75MCRL06841367619257",
+        "block_id": "27",
+        "confidence": 0.40370333194732666,
+        "bounding_box": [
+          140.83827209472656,
+          685.7969970703125,
+          626.7717895507812,
+          711.3201904296875
+        ],
+        "block_text": "IBAN: GB75MCRL06841367619257"
+      },
+      {
+        "value": "DE8765432101123456",
+        "block_id": "28",
+        "confidence": 0.3841829001903534,
+        "bounding_box": [
+          132.9769744873047,
+          444.42156982421875,
+          252.46241760253906,
+          473.6143493652344
+        ],
+        "block_text": "Seller:"
+      },
+      {
+        "value": "GB23 4567 8901 2345 6789 0123",
+        "block_id": "34",
+        "confidence": 0.32557937502861023,
+        "bounding_box": [
+          139.50205993652344,
+          507.0655517578125,
+          267.0743713378906,
+          532.9568481445312
+        ],
+        "block_text": "Andrews,"
+      },
+      {
+        "value": "DE8765432101123456",
+        "block_id": "35",
+        "confidence": 0.32250961661338806,
+        "bounding_box": [
+          132.4087677001953,
+          1715.204345703125,
+          327.2047119140625,
+          1743.799560546875
+        ],
+        "block_text": "SUMMARY"
+      }
+    ],
+    "address_client": [
+      {
+        "value": "Becker Ltd\n8012 Stewart Summit Apt. 455\nNorth Douglas, AZ 95355",
+        "block_id": "2",
+        "confidence": 0.94014972448349,
+        "bounding_box": [
+          832.8427734375,
+          506.4781799316406,
+          1263.6275634765625,
+          610.233642578125
+        ],
+        "block_text": "Becker Ltd\n8012 Stewart Summit Apt. 455\nNorth Douglas, AZ 95355"
+      },
+      {
+        "value": "Andrews, Kirby and Valdez\n58861 Gonzalez Prairie\nLake Daniellefurt, IN 57228",
+        "block_id": "3",
+        "confidence": 0.9339390397071838,
+        "bounding_box": [
+          140.08267211914062,
+          506.8832092285156,
+          524.1350708007812,
+          605.605712890625
+        ],
+        "block_text": "Andrews, Kirby and Valdez\n58861 Gonzalez Prairie\nLake Daniellefurt, IN 57228"
+      },
+      {
+        "value": "123 Main St, Anytown, Anystate, 12345",
+        "block_id": "4",
+        "confidence": 0.9202324748039246,
+        "bounding_box": [
+          133.9689178466797,
+          760.8466186523438,
+          245.8738555908203,
+          789.2060546875
+        ],
+        "block_text": "ITEMS"
+      },
+      {
+        "value": "123 Main St, Anytown, Anystate 12345",
+        "block_id": "5",
+        "confidence": 0.907884955406189,
+        "bounding_box": [
+          825.956787109375,
+          444.9659729003906,
+          947.0271606445312,
+          473.4598693847656
+        ],
+        "block_text": "Client:"
+      },
+      {
+        "value": "Client Street 1, 1010 City, Germany",
+        "block_id": "9",
+        "confidence": 0.8872629404067993,
+        "bounding_box": [
+          132.4087677001953,
+          1715.204345703125,
+          327.2047119140625,
+          1743.799560546875
+        ],
+        "block_text": "SUMMARY"
+      },
+      {
+        "value": "123 Main St, Anytown, Anystate 12345",
+        "block_id": "10",
+        "confidence": 0.8856250047683716,
+        "bounding_box": [
+          132.9769744873047,
+          444.42156982421875,
+          252.46241760253906,
+          473.6143493652344
+        ],
+        "block_text": "Seller:"
+      },
+      {
+        "value": "Andrews, Kirby and Valdez\n58861 Gonzalez Prairie\nLake Daniellefurt, IN 57228",
+        "block_id": "25",
+        "confidence": 0.43686699867248535,
+        "bounding_box": [
+          139.5564422607422,
+          503.831787109375,
+          1267.7000732421875,
+          713.9268188476562
+        ],
+        "block_text": "Andrews, Kirby and Valdez\n58861 Gonzalez Prairie\nLake Daniellefurt, IN 57228\n\nBecker Ltd\n8012 Stewart Summit Apt. 455\nNorth Douglas, AZ 95355\n\nTax Id: 945-82-2137\nIBAN: GB75MCRL06841367619257\n\nTax Id: 942-80-0517"
+      },
+      {
+        "value": "Andrews, Kirby and Valdez\n58861 Gonzalez Prairie\nLake Daniellefurt, IN 57228",
+        "block_id": "26",
+        "confidence": 0.4158473014831543,
+        "bounding_box": [
+          139.05845642089844,
+          503.6292419433594,
+          628.6273803710938,
+          713.441162109375
+        ],
+        "block_text": "Andrews, Kirby and Valdez\n58861 Gonzalez Prairie\nLake Daniellefurt, IN 57228\n\nTax Id: 945-82-2137\nIBAN: GB75MCRL06841367619257"
+      },
+      {
+        "value": "Client Street 1, 10 City, 1Z Postal Code",
+        "block_id": "28",
+        "confidence": 0.3841829001903534,
+        "bounding_box": [
+          132.9769744873047,
+          444.42156982421875,
+          252.46241760253906,
+          473.6143493652344
+        ],
+        "block_text": "Seller:"
+      },
+      {
+        "value": "Summit Apt. 455",
+        "block_id": "30",
+        "confidence": 0.3665289580821991,
+        "bounding_box": [
+          1028.0267333984375,
+          543.7352905273438,
+          1264.3013916015625,
+          568.8704833984375
+        ],
+        "block_text": "Summit Apt. 455"
+      },
+      {
+        "value": "North Douglas, AZ 95355",
+        "block_id": "33",
+        "confidence": 0.358964204788208,
+        "bounding_box": [
+          833.98876953125,
+          578.9063110351562,
+          1185.8809814453125,
+          609.857666015625
+        ],
+        "block_text": "North Douglas, AZ 95355"
+      },
+      {
+        "value": "123 Main St, Anytown, Anystate, AN1 2CD",
+        "block_id": "34",
+        "confidence": 0.32557937502861023,
+        "bounding_box": [
+          139.50205993652344,
+          507.0655517578125,
+          267.0743713378906,
+          532.9568481445312
+        ],
+        "block_text": "Andrews,"
+      },
+      {
+        "value": "Client Street 1, 10 City, 1Z Postal Code",
+        "block_id": "35",
+        "confidence": 0.32250961661338806,
+        "bounding_box": [
+          132.4087677001953,
+          1715.204345703125,
+          327.2047119140625,
+          1743.799560546875
+        ],
+        "block_text": "SUMMARY"
+      }
+    ],
+    "address_seller": [
+      {
+        "value": "456 Elm St, Anytown, Anystate, 67890",
+        "block_id": "4",
+        "confidence": 0.9202324748039246,
+        "bounding_box": [
+          133.9689178466797,
+          760.8466186523438,
+          245.8738555908203,
+          789.2060546875
+        ],
+        "block_text": "ITEMS"
+      },
+      {
+        "value": "456 Elm St, Anytown, Anystate 67890",
+        "block_id": "5",
+        "confidence": 0.907884955406189,
+        "bounding_box": [
+          825.956787109375,
+          444.9659729003906,
+          947.0271606445312,
+          473.4598693847656
+        ],
+        "block_text": "Client:"
+      },
+      {
+        "value": "Seller Street 2, 2020 City, Germany",
+        "block_id": "9",
+        "confidence": 0.8872629404067993,
+        "bounding_box": [
+          132.4087677001953,
+          1715.204345703125,
+          327.2047119140625,
+          1743.799560546875
+        ],
+        "block_text": "SUMMARY"
+      },
+      {
+        "value": "456 Elm St, Anytown, Anystate 67890",
+        "block_id": "10",
+        "confidence": 0.8856250047683716,
+        "bounding_box": [
+          132.9769744873047,
+          444.42156982421875,
+          252.46241760253906,
+          473.6143493652344
+        ],
+        "block_text": "Seller:"
+      },
+      {
+        "value": "Becker Ltd\n8012 Stewart Summit Apt. 455\nNorth Douglas, AZ 95355",
+        "block_id": "25",
+        "confidence": 0.43686699867248535,
+        "bounding_box": [
+          139.5564422607422,
+          503.831787109375,
+          1267.7000732421875,
+          713.9268188476562
+        ],
+        "block_text": "Andrews, Kirby and Valdez\n58861 Gonzalez Prairie\nLake Daniellefurt, IN 57228\n\nBecker Ltd\n8012 Stewart Summit Apt. 455\nNorth Douglas, AZ 95355\n\nTax Id: 945-82-2137\nIBAN: GB75MCRL06841367619257\n\nTax Id: 942-80-0517"
+      },
+      {
+        "value": "Seller Street 2, 20 City, 2Z Postal Code",
+        "block_id": "28",
+        "confidence": 0.3841829001903534,
+        "bounding_box": [
+          132.9769744873047,
+          444.42156982421875,
+          252.46241760253906,
+          473.6143493652344
+        ],
+        "block_text": "Seller:"
+      },
+      {
+        "value": "456 Elm St, Anytown, Anystate, AN2 3EF",
+        "block_id": "34",
+        "confidence": 0.32557937502861023,
+        "bounding_box": [
+          139.50205993652344,
+          507.0655517578125,
+          267.0743713378906,
+          532.9568481445312
+        ],
+        "block_text": "Andrews,"
+      },
+      {
+        "value": "Seller Street 2, 20 City, 2Z Postal Code",
+        "block_id": "35",
+        "confidence": 0.32250961661338806,
+        "bounding_box": [
+          132.4087677001953,
+          1715.204345703125,
+          327.2047119140625,
+          1743.799560546875
+        ],
+        "block_text": "SUMMARY"
+      }
+    ],
+    "net_worth": [
+      {
+        "value": "5640.17",
+        "block_id": "1",
+        "confidence": 0.9676676392555237,
+        "bounding_box": [
+          131.67897033691406,
+          1779.6932373046875,
+          1520.6849365234375,
+          1960.77197265625
+        ],
+        "block_text": "| VAT [%] | Net worth | VAT | Gross worth |\n|---------|-----------|-----|-------------|\n|         | 10%       |     |             |\n| Total   | $ 5 640,17 | $ 564,02 | $ 6 204,19 |\n\n|         | VAT | Gross worth |\n|---------|-----|-------------|\n|         | 564,02 | 6 204,19    |"
+      },
+      {
+        "value": "100.50",
+        "block_id": "4",
+        "confidence": 0.9202324748039246,
+        "bounding_box": [
+          133.9689178466797,
+          760.8466186523438,
+          245.8738555908203,
+          789.2060546875
+        ],
+        "block_text": "ITEMS"
+      },
+      {
+        "value": "100.00",
+        "block_id": "5",
+        "confidence": 0.907884955406189,
+        "bounding_box": [
+          825.956787109375,
+          444.9659729003906,
+          947.0271606445312,
+          473.4598693847656
+        ],
+        "block_text": "Client:"
+      },
+      {
+        "value": "of issue",
+        "block_id": "7",
+        "confidence": 0.8948358297348022,
+        "bounding_box": [
+          133.68878173828125,
+          142.22686767578125,
+          342.2557373046875,
+          169.20703125
+        ],
+        "block_text": "Date of issue:"
+      },
+      {
+        "value": "1234.56",
+        "block_id": "8",
+        "confidence": 0.8886567950248718,
+        "bounding_box": [
+          832.6076049804688,
+          651.52978515625,
+          924.3295288085938,
+          675.9462890625
+        ],
+        "block_text": "Tax Id:"
+      },
+      {
+        "value": "1234.56",
+        "block_id": "9",
+        "confidence": 0.8872629404067993,
+        "bounding_box": [
+          132.4087677001953,
+          1715.204345703125,
+          327.2047119140625,
+          1743.799560546875
+        ],
+        "block_text": "SUMMARY"
+      },
+      {
+        "value": "1000.00",
+        "block_id": "10",
+        "confidence": 0.8856250047683716,
+        "bounding_box": [
+          132.9769744873047,
+          444.42156982421875,
+          252.46241760253906,
+          473.6143493652344
+        ],
+        "block_text": "Seller:"
+      },
+      {
+        "value": "GB75MCRL06841367619257",
+        "block_id": "13",
+        "confidence": 0.8623987436294556,
+        "bounding_box": [
+          221.38589477539062,
+          685.6211547851562,
+          627.0400390625,
+          710.5045166015625
+        ],
+        "block_text": "GB75MCRL06841367619257"
+      },
+      {
+        "value": "no:",
+        "block_id": "15",
+        "confidence": 0.8428977131843567,
+        "bounding_box": [
+          133.3135986328125,
+          74.44454193115234,
+          337.21356201171875,
+          102.83554077148438
+        ],
+        "block_text": "Invoice no:"
+      },
+      {
+        "value": "51109338",
+        "block_id": "21",
+        "confidence": 0.5757466554641724,
+        "bounding_box": [
+          133.55335998535156,
+          74.47105407714844,
+          535.4697265625,
+          103.38741302490234
+        ],
+        "block_text": "Invoice no: 51109338"
+      },
+      {
+        "value": "51109338",
+        "block_id": "24",
+        "confidence": 0.45353496074676514,
+        "bounding_box": [
+          133.55335998535156,
+          74.47105407714844,
+          535.4697265625,
+          103.38741302490234
+        ],
+        "block_text": "Invoice no: 51109338"
+      },
+      {
+        "value": "1234.56",
+        "block_id": "28",
+        "confidence": 0.3841829001903534,
+        "bounding_box": [
+          132.9769744873047,
+          444.42156982421875,
+          252.46241760253906,
+          473.6143493652344
+        ],
+        "block_text": "Seller:"
+      },
+      {
+        "value": "N/A",
+        "block_id": "29",
+        "confidence": 0.383190393447876,
+        "bounding_box": [
+          833.8482055664062,
+          507.0731201171875,
+          983.2609252929688,
+          533.8848266601562
+        ],
+        "block_text": "Becker Ltd"
+      },
+      {
+        "value": "N/A",
+        "block_id": "31",
+        "confidence": 0.36352649331092834,
+        "bounding_box": [
+          278.435302734375,
+          507.5530700683594,
+          514.5230712890625,
+          536.6829833984375
+        ],
+        "block_text": "Kirby and Valdez"
+      },
+      {
+        "value": "51109338",
+        "block_id": "32",
+        "confidence": 0.3597140908241272,
+        "bounding_box": [
+          133.55335998535156,
+          74.47105407714844,
+          535.4697265625,
+          103.38741302490234
+        ],
+        "block_text": "Invoice no: 51109338"
+      },
+      {
+        "value": "1234.56",
+        "block_id": "34",
+        "confidence": 0.32557937502861023,
+        "bounding_box": [
+          139.50205993652344,
+          507.0655517578125,
+          267.0743713378906,
+          532.9568481445312
+        ],
+        "block_text": "Andrews,"
+      },
+      {
+        "value": "1234.56",
+        "block_id": "35",
+        "confidence": 0.32250961661338806,
+        "bounding_box": [
+          132.4087677001953,
+          1715.204345703125,
+          327.2047119140625,
+          1743.799560546875
+        ],
+        "block_text": "SUMMARY"
+      },
+      {
+        "value": "no:",
+        "block_id": "37",
+        "confidence": 0.3054823577404022,
+        "bounding_box": [
+          133.3135986328125,
+          74.44454193115234,
+          337.21356201171875,
+          102.83554077148438
+        ],
+        "block_text": "Invoice no:"
+      },
+      {
+        "value": "Stewart",
+        "block_id": "39",
+        "confidence": 0.30340680480003357,
+        "bounding_box": [
+          833.65771484375,
+          544.210693359375,
+          1021.923828125,
+          570.3093872070312
+        ],
+        "block_text": "8012 Stewart"
+      }
+    ],
+    "vat_percent": [
+      {
+        "value": "10%",
+        "block_id": "1",
+        "confidence": 0.9676676392555237,
+        "bounding_box": [
+          131.67897033691406,
+          1779.6932373046875,
+          1520.6849365234375,
+          1960.77197265625
+        ],
+        "block_text": "| VAT [%] | Net worth | VAT | Gross worth |\n|---------|-----------|-----|-------------|\n|         | 10%       |     |             |\n| Total   | $ 5 640,17 | $ 564,02 | $ 6 204,19 |\n\n|         | VAT | Gross worth |\n|---------|-----|-------------|\n|         | 564,02 | 6 204,19    |"
+      },
+      {
+        "value": "20.0",
+        "block_id": "4",
+        "confidence": 0.9202324748039246,
+        "bounding_box": [
+          133.9689178466797,
+          760.8466186523438,
+          245.8738555908203,
+          789.2060546875
+        ],
+        "block_text": "ITEMS"
+      },
+      {
+        "value": "20.0",
+        "block_id": "5",
+        "confidence": 0.907884955406189,
+        "bounding_box": [
+          825.956787109375,
+          444.9659729003906,
+          947.0271606445312,
+          473.4598693847656
+        ],
+        "block_text": "Client:"
+      },
+      {
+        "value": "19.0",
+        "block_id": "9",
+        "confidence": 0.8872629404067993,
+        "bounding_box": [
+          132.4087677001953,
+          1715.204345703125,
+          327.2047119140625,
+          1743.799560546875
+        ],
+        "block_text": "SUMMARY"
+      },
+      {
+        "value": "20.0",
+        "block_id": "10",
+        "confidence": 0.8856250047683716,
+        "bounding_box": [
+          132.9769744873047,
+          444.42156982421875,
+          252.46241760253906,
+          473.6143493652344
+        ],
+        "block_text": "Seller:"
+      },
+      {
+        "value": "19.0",
+        "block_id": "28",
+        "confidence": 0.3841829001903534,
+        "bounding_box": [
+          132.9769744873047,
+          444.42156982421875,
+          252.46241760253906,
+          473.6143493652344
+        ],
+        "block_text": "Seller:"
+      },
+      {
+        "value": "20.0",
+        "block_id": "34",
+        "confidence": 0.32557937502861023,
+        "bounding_box": [
+          139.50205993652344,
+          507.0655517578125,
+          267.0743713378906,
+          532.9568481445312
+        ],
+        "block_text": "Andrews,"
+      },
+      {
+        "value": "19.0",
+        "block_id": "35",
+        "confidence": 0.32250961661338806,
+        "bounding_box": [
+          132.4087677001953,
+          1715.204345703125,
+          327.2047119140625,
+          1743.799560546875
+        ],
+        "block_text": "SUMMARY"
+      }
+    ],
+    "gross_worth": [
+      {
+        "value": "6204.19",
+        "block_id": "1",
+        "confidence": 0.9676676392555237,
+        "bounding_box": [
+          131.67897033691406,
+          1779.6932373046875,
+          1520.6849365234375,
+          1960.77197265625
+        ],
+        "block_text": "| VAT [%] | Net worth | VAT | Gross worth |\n|---------|-----------|-----|-------------|\n|         | 10%       |     |             |\n| Total   | $ 5 640,17 | $ 564,02 | $ 6 204,19 |\n\n|         | VAT | Gross worth |\n|---------|-----|-------------|\n|         | 564,02 | 6 204,19    |"
+      },
+      {
+        "value": "120.50",
+        "block_id": "4",
+        "confidence": 0.9202324748039246,
+        "bounding_box": [
+          133.9689178466797,
+          760.8466186523438,
+          245.8738555908203,
+          789.2060546875
+        ],
+        "block_text": "ITEMS"
+      },
+      {
+        "value": "120.00",
+        "block_id": "5",
+        "confidence": 0.907884955406189,
+        "bounding_box": [
+          825.956787109375,
+          444.9659729003906,
+          947.0271606445312,
+          473.4598693847656
+        ],
+        "block_text": "Client:"
+      },
+      {
+        "value": "1567.89",
+        "block_id": "8",
+        "confidence": 0.8886567950248718,
+        "bounding_box": [
+          832.6076049804688,
+          651.52978515625,
+          924.3295288085938,
+          675.9462890625
+        ],
+        "block_text": "Tax Id:"
+      },
+      {
+        "value": "1511.25",
+        "block_id": "9",
+        "confidence": 0.8872629404067993,
+        "bounding_box": [
+          132.4087677001953,
+          1715.204345703125,
+          327.2047119140625,
+          1743.799560546875
+        ],
+        "block_text": "SUMMARY"
+      },
+      {
+        "value": "1200.00",
+        "block_id": "10",
+        "confidence": 0.8856250047683716,
+        "bounding_box": [
+          132.9769744873047,
+          444.42156982421875,
+          252.46241760253906,
+          473.6143493652344
+        ],
+        "block_text": "Seller:"
+      },
+      {
+        "value": "51109338",
+        "block_id": "21",
+        "confidence": 0.5757466554641724,
+        "bounding_box": [
+          133.55335998535156,
+          74.47105407714844,
+          535.4697265625,
+          103.38741302490234
+        ],
+        "block_text": "Invoice no: 51109338"
+      },
+      {
+        "value": "51109338",
+        "block_id": "24",
+        "confidence": 0.45353496074676514,
+        "bounding_box": [
+          133.55335998535156,
+          74.47105407714844,
+          535.4697265625,
+          103.38741302490234
+        ],
+        "block_text": "Invoice no: 51109338"
+      },
+      {
+        "value": "1500.00",
+        "block_id": "28",
+        "confidence": 0.3841829001903534,
+        "bounding_box": [
+          132.9769744873047,
+          444.42156982421875,
+          252.46241760253906,
+          473.6143493652344
+        ],
+        "block_text": "Seller:"
+      },
+      {
+        "value": "N/A",
+        "block_id": "29",
+        "confidence": 0.383190393447876,
+        "bounding_box": [
+          833.8482055664062,
+          507.0731201171875,
+          983.2609252929688,
+          533.8848266601562
+        ],
+        "block_text": "Becker Ltd"
+      },
+      {
+        "value": "N/A",
+        "block_id": "31",
+        "confidence": 0.36352649331092834,
+        "bounding_box": [
+          278.435302734375,
+          507.5530700683594,
+          514.5230712890625,
+          536.6829833984375
+        ],
+        "block_text": "Kirby and Valdez"
+      },
+      {
+        "value": "51109338",
+        "block_id": "32",
+        "confidence": 0.3597140908241272,
+        "bounding_box": [
+          133.55335998535156,
+          74.47105407714844,
+          535.4697265625,
+          103.38741302490234
+        ],
+        "block_text": "Invoice no: 51109338"
+      },
+      {
+        "value": "1551.44",
+        "block_id": "34",
+        "confidence": 0.32557937502861023,
+        "bounding_box": [
+          139.50205993652344,
+          507.0655517578125,
+          267.0743713378906,
+          532.9568481445312
+        ],
+        "block_text": "Andrews,"
+      },
+      {
+        "value": "1500.00",
+        "block_id": "35",
+        "confidence": 0.32250961661338806,
+        "bounding_box": [
+          132.4087677001953,
+          1715.204345703125,
+          327.2047119140625,
+          1743.799560546875
+        ],
+        "block_text": "SUMMARY"
+      }
+    ],
+    "gross_worth_total": [
+      {
+        "value": "6204.19",
+        "block_id": "1",
+        "confidence": 0.9676676392555237,
+        "bounding_box": [
+          131.67897033691406,
+          1779.6932373046875,
+          1520.6849365234375,
+          1960.77197265625
+        ],
+        "block_text": "| VAT [%] | Net worth | VAT | Gross worth |\n|---------|-----------|-----|-------------|\n|         | 10%       |     |             |\n| Total   | $ 5 640,17 | $ 564,02 | $ 6 204,19 |\n\n|         | VAT | Gross worth |\n|---------|-----|-------------|\n|         | 564,02 | 6 204,19    |"
+      },
+      {
+        "value": "132.55",
+        "block_id": "4",
+        "confidence": 0.9202324748039246,
+        "bounding_box": [
+          133.9689178466797,
+          760.8466186523438,
+          245.8738555908203,
+          789.2060546875
+        ],
+        "block_text": "ITEMS"
+      },
+      {
+        "value": "120.00",
+        "block_id": "5",
+        "confidence": 0.907884955406189,
+        "bounding_box": [
+          825.956787109375,
+          444.9659729003906,
+          947.0271606445312,
+          473.4598693847656
+        ],
+        "block_text": "Client:"
+      },
+      {
+        "value": "1634.61",
+        "block_id": "9",
+        "confidence": 0.8872629404067993,
+        "bounding_box": [
+          132.4087677001953,
+          1715.204345703125,
+          327.2047119140625,
+          1743.799560546875
+        ],
+        "block_text": "SUMMARY"
+      },
+      {
+        "value": "1200.00",
+        "block_id": "10",
+        "confidence": 0.8856250047683716,
+        "bounding_box": [
+          132.9769744873047,
+          444.42156982421875,
+          252.46241760253906,
+          473.6143493652344
+        ],
+        "block_text": "Seller:"
+      },
+      {
+        "value": "51109338",
+        "block_id": "21",
+        "confidence": 0.5757466554641724,
+        "bounding_box": [
+          133.55335998535156,
+          74.47105407714844,
+          535.4697265625,
+          103.38741302490234
+        ],
+        "block_text": "Invoice no: 51109338"
+      },
+      {
+        "value": "51109338",
+        "block_id": "24",
+        "confidence": 0.45353496074676514,
+        "bounding_box": [
+          133.55335998535156,
+          74.47105407714844,
+          535.4697265625,
+          103.38741302490234
+        ],
+        "block_text": "Invoice no: 51109338"
+      },
+      {
+        "value": "1627.44",
+        "block_id": "28",
+        "confidence": 0.3841829001903534,
+        "bounding_box": [
+          132.9769744873047,
+          444.42156982421875,
+          252.46241760253906,
+          473.6143493652344
+        ],
+        "block_text": "Seller:"
+      },
+      {
+        "value": "N/A",
+        "block_id": "29",
+        "confidence": 0.383190393447876,
+        "bounding_box": [
+          833.8482055664062,
+          507.0731201171875,
+          983.2609252929688,
+          533.8848266601562
+        ],
+        "block_text": "Becker Ltd"
+      },
+      {
+        "value": "N/A",
+        "block_id": "31",
+        "confidence": 0.36352649331092834,
+        "bounding_box": [
+          278.435302734375,
+          507.5530700683594,
+          514.5230712890625,
+          536.6829833984375
+        ],
+        "block_text": "Kirby and Valdez"
+      },
+      {
+        "value": "51109338",
+        "block_id": "32",
+        "confidence": 0.3597140908241272,
+        "bounding_box": [
+          133.55335998535156,
+          74.47105407714844,
+          535.4697265625,
+          103.38741302490234
+        ],
+        "block_text": "Invoice no: 51109338"
+      },
+      {
+        "value": "1675.50",
+        "block_id": "34",
+        "confidence": 0.32557937502861023,
+        "bounding_box": [
+          139.50205993652344,
+          507.0655517578125,
+          267.0743713378906,
+          532.9568481445312
+        ],
+        "block_text": "Andrews,"
+      },
+      {
+        "value": "1627.44",
+        "block_id": "35",
+        "confidence": 0.32250961661338806,
+        "bounding_box": [
+          132.4087677001953,
+          1715.204345703125,
+          327.2047119140625,
+          1743.799560546875
+        ],
+        "block_text": "SUMMARY"
+      }
+    ]
+  }
+}

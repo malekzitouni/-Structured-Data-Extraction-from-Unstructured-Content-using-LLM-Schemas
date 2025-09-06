@@ -1,0 +1,122 @@
+{
+  "invoice_no": {
+    "type": "string",
+    "description": "Unique invoice identification number"
+  },
+  "date_of_issue": {
+    "type": "string",
+    "format": "date",
+    "description": "Date the invoice was issued in MM/DD/YYYY format"
+  },
+  "seller": {
+    "type": "object",
+    "description": "Details of the seller issuing the invoice",
+    "properties": {
+      "name": {
+        "type": "string",
+        "description": "Seller's full business name"
+      },
+      "address": {
+        "type": "string",
+        "description": "Seller's street address"
+      },
+      "city_state_zip": {
+        "type": "string",
+        "description": "City, state, and ZIP code of the seller"
+      },
+      "tax_id": {
+        "type": "string",
+        "description": "Seller's tax identification number"
+      },
+      "iban": {
+        "type": "string",
+        "description": "Seller's International Bank Account Number"
+      }
+    }
+  },
+  "client": {
+    "type": "object",
+    "description": "Details of the client receiving the invoice",
+    "properties": {
+      "name": {
+        "type": "string",
+        "description": "Client's full business name"
+      },
+      "address": {
+        "type": "string",
+        "description": "Client's street address"
+      },
+      "city_state_zip": {
+        "type": "string",
+        "description": "City, state, and ZIP code of the client"
+      },
+      "tax_id": {
+        "type": "string",
+        "description": "Client's tax identification number"
+      }
+    }
+  },
+  "items": {
+    "type": "array",
+    "description": "List of items included in the invoice",
+    "items": {
+      "type": "object",
+      "properties": {
+        "no": {
+          "type": "integer",
+          "description": "Serial number of the item in the invoice"
+        },
+        "description": {
+          "type": "string",
+          "description": "Detailed description of the product or service"
+        },
+        "qty": {
+          "type": "number",
+          "description": "Quantity of the item purchased"
+        },
+        "um": {
+          "type": "string",
+          "description": "Unit of measure for the quantity (e.g., each)"
+        },
+        "net_price": {
+          "type": "number",
+          "description": "Price per unit excluding tax"
+        },
+        "net_worth": {
+          "type": "number",
+          "description": "Total price for the quantity excluding tax"
+        },
+        "vat_percent": {
+          "type": "number",
+          "description": "Value Added Tax rate applied to the item"
+        },
+        "gross_worth": {
+          "type": "number",
+          "description": "Total price including tax"
+        }
+      }
+    }
+  },
+  "summary": {
+    "type": "object",
+    "description": "Summary of the invoice totals",
+    "properties": {
+      "vat_percent": {
+        "type": "number",
+        "description": "Value Added Tax percentage applied to the total"
+      },
+      "net_worth_total": {
+        "type": "number",
+        "description": "Total net worth for all items excluding tax"
+      },
+      "vat_total": {
+        "type": "number",
+        "description": "Total Value Added Tax amount"
+      },
+      "gross_worth_total": {
+        "type": "number",
+        "description": "Total gross worth including tax"
+      }
+    }
+  }
+}

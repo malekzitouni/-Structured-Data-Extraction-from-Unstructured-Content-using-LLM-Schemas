@@ -1,0 +1,12 @@
+{
+  "invoice_no": "ABC12345",
+  "tax_id": "DE123456789",
+  "date_of_issue": "01/15/2023",
+  "IBAN": "GB88 1234 5678 9012 3456 7890 1234 5678",
+  "address_client": "Becker Ltd\n8012 Stewart Summit Apt. 455\nNorth Douglas, AZ 95355",
+  "address_seller": "456 Elm St, Anytown, Anystate, 67890",
+  "net_worth": "5640.17",
+  "vat_percent": "10%",
+  "gross_worth": "6204.19",
+  "gross_worth_total": "6204.19"
+}
