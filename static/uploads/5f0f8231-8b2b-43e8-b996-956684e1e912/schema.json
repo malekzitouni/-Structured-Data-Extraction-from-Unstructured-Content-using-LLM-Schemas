@@ -1,0 +1,6 @@
+{
+  "name": {
+    "type": "string",
+    "description": "Name of the person or entity"
+  }
+}
