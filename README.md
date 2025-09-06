@@ -58,11 +58,16 @@ Our system transforms complex, unstructured KYC documents into clean, structured
 8. **Cross-Reference Validation** - Consistency checks across document sections
 9. **Structured Output Generation** - Clean JSON/XML output with metadata
 
+   <img width="672" height="252" alt="image" src="https://github.com/user-attachments/assets/7cb16402-7ea1-4bf5-b995-11c4498111a2" />
+
+
 ## 🔧 Technical Approach
 
 ### Document Layout Analysis (DLA)
 
 **Framework**: [Docling](https://github.com/DS4SD/docling) - Open-source Python framework for document structure analysis
+img width="477" height="158" alt="image" src="https://github.com/user-attachments/assets/db644bcb-a5a7-43c5-9829-18163167ca26" />
+
 
 **Models Used**:
 - `ds4sd/docling-layout-old` - Legacy layout detection for compatibility
@@ -80,6 +85,11 @@ Our system transforms complex, unstructured KYC documents into clean, structured
 
 **Output**: Clean, machine-readable document structure with hierarchical layout metadata
 
+<img width="470" height="398" alt="image" src="https://github.com/user-attachments/assets/abe79c5f-76d9-46b2-8376-5788a6fdf286" />
+Output : 
+<img width="712" height="399" alt="image" src="https://github.com/user-attachments/assets/e8aa4277-46af-49ca-b2ca-eca3cc5d4577" />
+
+
 ### Table Structure Recognition (TSR)
 
 **Tool**: Microsoft's Table Transformer (DETR-based TableFormer Model)
@@ -95,6 +105,10 @@ Our system transforms complex, unstructured KYC documents into clean, structured
 - **Model Architecture**: Detection Transformer (DETR) fine-tuned on table datasets
 - **Post-Processing**: Graph-based cell relationship mapping
 - **Coordinate Alignment**: Sub-pixel accuracy for cell boundary detection
+
+ Example Output : 
+ <img width="427" height="365" alt="image" src="https://github.com/user-attachments/assets/cb751e91-7089-4498-97d5-fd0e38a95ad2" />
+
 
 ### OCR Extraction Engine
 
@@ -114,6 +128,15 @@ Our system transforms complex, unstructured KYC documents into clean, structured
 3. **Context-Aware OCR**: Custom prompts for different content types
 4. **Confidence Analysis**: Per-character and per-word confidence scoring
 5. **Post-Processing**: Spell correction and format standardization
+
+Example Output : 
+<img width="572" height="407" alt="image" src="https://github.com/user-attachments/assets/01b2ddc2-acfb-4cb3-8937-3e8eada25bb7" />
+Label = "table"
+<img width="1392" height="846" alt="image" src="https://github.com/user-attachments/assets/1f52a4a3-9277-4f1e-b1e6-a3bc05a252e4" />
+Label = "section headers "
+<img width="778" height="790" alt="image" src="https://github.com/user-attachments/assets/7611424a-1fef-4776-a785-d499e824095f" />
+
+
 
 ## 🤖 Model Deployment & Configuration
 
@@ -174,6 +197,19 @@ MODEL_CONFIG = {
 - **Adaptive Layout Processing**: Handles various document formats automatically
 - **Dynamic Schema Mapping**: Flexible field extraction based on user-defined schemas
 - **Intelligent Conflict Resolution**: Advanced scoring system for duplicate detection
+-  **Detailed Logic Explanation**: Transform unstructured document text (from OCR) into structured data by mapping field values to predefined schema fields using AI models
+<img width="1115" height="648" alt="image" src="https://github.com/user-attachments/assets/a747498c-e3b2-460c-933f-933d993983ce" />
+<img width="975" height="452" alt="image" src="https://github.com/user-attachments/assets/c5141355-83fc-4280-95f6-7472a17ae08f" />
+
+<img width="877" height="519" alt="image" src="https://github.com/user-attachments/assets/a4ca7f96-64a8-40ea-b541-b4eee64372c0" />
+
+<img width="1105" height="573" alt="image" src="https://github.com/user-attachments/assets/afd8e743-fd4e-4ebd-ad80-0a3be5997225" />
+
+<img width="1104" height="551" alt="image" src="https://github.com/user-attachments/assets/5b53799e-2629-47c9-8539-cbe9366d6161" />
+<img width="529" height="374" alt="image" src="https://github.com/user-attachments/assets/099e047b-643f-4bec-8b10-a55a9ba04ee6" />
+
+ <img width="841" height="448" alt="image" src="https://github.com/user-attachments/assets/211785ea-a12b-454c-a2e9-05a4fa0a2137" />
+
 - **Multi-Modal Understanding**: Combines computer vision and NLP
 - **GPU Acceleration**: CUDA support with 4-bit quantization for efficiency
 - **Comprehensive Logging**: Full system monitoring and debugging
@@ -181,6 +217,16 @@ MODEL_CONFIG = {
 - **Custom Schema Learning**: Automatic schema generation from sample documents
 - **Confidence Calibration**: Statistical confidence intervals for extracted values
 - **Multi-Language Support**: Handles documents in 50+ languages
+Example Output :
+ <img width="857" height="495" alt="image" src="https://github.com/user-attachments/assets/8c0d617b-5f43-40a2-975d-20197741c59c" />
+
+<img width="873" height="128" alt="image" src="https://github.com/user-attachments/assets/3174d00a-1cc0-42a5-93af-08b3368fd11c" />
+
+<img width="887" height="467" alt="image" src="https://github.com/user-attachments/assets/ac5af5cb-8e9f-4eb2-ab30-de1f98496d9d" />
+
+
+
+
 
 ## 🛠️ Tools & Technologies
 
@@ -853,3 +899,4 @@ class ModelCacheManager:
 |---------------|----------|-----------|---------|----------|-------------------|
 | Bank Statements | 96.3% | 95.8% | 97.1% | 96.4% | 28s |
 | Tax Documents | 93.7% | 94.2% | 93.1% | 93.6% |
+
