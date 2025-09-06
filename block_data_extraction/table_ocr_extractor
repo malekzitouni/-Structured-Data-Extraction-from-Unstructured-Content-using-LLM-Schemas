@@ -1,0 +1,98 @@
+# OCR Table Extractor Script Documentation
+
+## Overview
+
+This Python script is a specialized **OCR (Optical Character Recognition)** tool designed to extract **tables only** from scanned document images with high precision. It leverages the Nanonets OCR model to focus specifically on tabular data while ignoring other document elements like headers, paragraphs, and footers.
+
+## Key Features
+
+### 🎯 Table-Focused Extraction
+- Exclusively extracts tables from document images
+- Ignores non-tabular content (paragraphs, headers, footers, watermarks)
+- Preserves original table structure and formatting
+
+### 🔧 Technical Capabilities
+- **GPU Acceleration**: Automatically detects and utilizes CUDA-enabled GPUs
+- **Memory Optimization**: Uses half-precision (float16) on GPU, full precision (float32) on CPU
+- **Smart Resource Management**: Implements automatic memory cleanup and cache management
+- **Robust Error Handling**: Comprehensive exception handling throughout the pipeline
+
+### 📊 Table Rendering
+- Clean ASCII table formatting using `+`, `|`, and `-` characters
+- Preserves column alignment and spacing
+- Handles merged cells with visual indicators
+- Maintains empty cell representation
+
+## Technical Architecture
+
+### Model Components
+- **Base Model**: `nanonets/Nanonets-OCR-s` (Hugging Face)
+- **Processing**: AutoProcessor with chat template formatting
+- **Tokenization**: AutoTokenizer with special token handling
+- **Generation**: Constrained generation with 4000 token limit
+
+### System Requirements
+- **GPU**: CUDA-compatible (optional but recommended)
+- **Memory**: Variable based on image size and model precision
+- **Storage**: Local model caching at `C:/models`
+
+## Configuration Options
+
+| Parameter     | Default Value                  | Description                          |
+|---------------|-------------------------------|--------------------------------------|
+| `MODEL_PATH`  | `"nanonets/Nanonets-OCR-s"`   | Hugging Face model identifier        |
+| `CACHE_DIR`   | `"C:/models"`                 | Local model storage directory        |
+| `MAX_TOKENS`  | `4000`                         | Maximum generation tokens            |
+| `IMAGE_PATH`  | User-defined                   | Input document image path            |
+
+## Workflow Process
+
+1. **Environment Setup**: Configures warnings, cache directories, and GPU detection
+2. **Model Loading**: Downloads and initializes OCR components with optimal settings
+3. **Image Processing**: Loads and prepares input image for analysis
+4. **Prompt Engineering**: Applies specialized chat template for table extraction
+5. **Inference**: Runs OCR generation with table-specific constraints
+6. **Output Formatting**: Saves structured ASCII tables to text file
+
+## Output Format
+
+The script generates ASCII-formatted tables with the following structure:
+
++-------------+-------------+
+| Header 1 | Header 2 |
++=============+=============+
+| Cell 1 | Cell 2 |
++-------------+-------------+
+
+## Use Cases
+
+- **Financial Documents**: Extract accounting tables, invoices, financial statements
+- **Research Papers**: Isolate data tables from academic publications
+- **Business Reports**: Extract performance metrics and statistical tables
+- **Government Forms**: Process structured data from official documents
+- **Data Migration**: Convert scanned tabular data to digital format
+
+## Performance Monitoring
+
+The script includes built-in monitoring for:
+- Model loading times
+- GPU memory utilization (via NVML)
+- Processing duration
+- Device and precision information
+
+## Error Handling
+
+Comprehensive error management covers:
+- Model loading failures
+- Image processing errors
+- GPU memory issues
+- File I/O exceptions
+- Generation timeouts
+
+---
+### Academic/Research
+16. **Multi-Modal Table Recognition Using Fine-Tuned Vision-Language Models**
+17. **Structured Data Extraction from Document Images via OCR**
+18. **Table-Focused Optical Character Recognition with ASCII Rendering**
+19. **Document Understanding for Tabular Data Extraction**
+20. **Vision-to-Text Pipeline for Table Structure Preservation**

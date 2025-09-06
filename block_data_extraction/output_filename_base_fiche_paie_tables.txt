@@ -1,0 +1,85 @@
+=== BLOCK 1 ===
+Type: Table
+Confidence: 0.96
+Position: [13.189807891845703, 1153.37060546875, 1149.5653076171875, 1263.6787109375]
+
+EXTRACTED TEXT:
++----------------+----------+-----------+----------+---------------+
+| Impot sur le revenu | Base    | Taux Neutre | Montant   | Cumul annuel |
+|                  |          |            |           |               |
++----------------+----------+-----------+----------+---------------+
+| Montant net imposable |          |           | 4 352,44 € | 21 762,20 €  |
+| Impôt sur le revenu prélevé à la source | 4 352,44 € | 17,10 %   | 744,27 €   | 3 721,34 €  |
+| Montant net des heures compl/suppl exonérées | 0,00 € |           |           |               |
++----------------+----------+-----------+----------+---------------+
+
+==================================================
+
+=== BLOCK 2 ===
+Type: Table
+Confidence: 0.95
+Position: [13.51263427734375, 388.10906982421875, 1145.5509033203125, 916.3023071289062]
+
+EXTRACTED TEXT:
++----------------+----------+---------+---------+---------+---------+
+| Rubriques      | Base     | Taux Salarial | Cot. Salariales | Taux Patronal | Cot. Patronales |
++----------------+----------+-------------+---------------+--------------+---------------+
+| SALAIRE DE BASE | 5 200,00 € | 34,28       |               |              |               |
+| SALAIRE BRUT   | 5 200,00 € |             |               |              |               |
+| SANTÉ          |           |             |               |              |               |
+| Sécurité sociale | 5 200,00 € |             |               |              |               |
+| ACCIDENTS DU TRAVAIL - MALADIES PROFESSIONNELLES | 5 200,00 € |             |               |              |               |
+| RETRAITE        |           |             |               |              |               |
+| Assurance Vieillesse déplafonnée | 5 200,00 € | 0,40         | 20,80 €       | 2,02          | 105,04 €      |
+| Assurance Vieillesse plafonnée | 3 925,00 € | 6,90         | 270,83 €      | 8,55          | 335,59 €      |
+| Retraite complémentaire tranche: AGIRC-ARRCO | 5 200,00 € | 3,15         | 163,80 €      | 4,72          | 245,44 €      |
+| CEG tranche 1   | 5 200,00 € | 0,86         | 44,72 €       | 1,29          | 67,08 €       |
+| FAMILLE-SÉCURITÉ SOCIALE | 5 200,00 € |             |               |              | 135,42 €      |
+| ASSURANCE CHÔMAGE |           |             |               |              |               |
+| Assurance chômage tranche A | 5 200,00 € |             |               |              |               |
+| Assurance chômage tranche AGS (FNGS) | 5 200,00 € |             |               |              |               |
+| CSG déductible    | 5 109,00 € | 6,80         | 347,41 €      |              |               |
+| AUTRES CONTRIBUTIONS DUES PAR L'EMPLOYEUR | 5 200,00 € |             |               |              |               |
+| TOTAL DES RETENUES |           |             |               |              |               |
+| CSG/CRDS imposable à l'impôt sur le revenu | 5 109,00 € | 2,90         | 148,16 €      |              |               |
+|                   |             |             |               | 847,56 €      | 1 677,93 €    |
++----------------+----------+---------+---------+---------+---------+
+
+==================================================
+
+=== BLOCK 3 ===
+Type: Table
+Confidence: 0.46
+Position: [15.855915069580078, 1050.81201171875, 1144.57958984375, 1132.9273681640625]
+
+EXTRACTED TEXT:
++------------+----------+---------+
+| Heures période | 151,67   | Cumul bases | 26 000,00 € | Total cot. patronales | 1 677,93 € |
+| Cumul heures | 758,35   | Cumul bruts | 26 000,00 € | Total des retenues | 2 525,49 € |
+| Cumul heures sup. | 0,00    | Cumul imposable | 21 762,20 € | Coût global période | 6 877,93 € |
++------------+----------+---------+
+
+==================================================
+
+=== BLOCK 4 ===
+Type: Table
+Confidence: 0.39
+Position: [18.743602752685547, 1279.450927734375, 1149.0943603515625, 1414.4649658203125]
+
+EXTRACTED TEXT:
++------------+----------+---------+
+| Congés Payés |          |         |
++------------+----------+---------+
+| En cours   | 0,00     |         |
++------------+----------+---------+
+| Acquis     | 0,00     |         |
++------------+----------+---------+
+| Pris       | 0,00     |         |
++------------+----------+---------+
+| Solde      | 0,00     |         |
++------------+----------+---------+
+| NET À PAYER AU SALARIÉ | 3 460,01 € |         |
++------------+----------+---------+
+
+==================================================
+

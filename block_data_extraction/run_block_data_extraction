@@ -1,0 +1,148 @@
+# Block Text Extraction with Nanonets OCR
+
+## 📋 Overview
+
+This script provides a sophisticated document processing pipeline that extracts structured text from document blocks using the Nanonets OCR model. It processes layout analysis results to extract precisely formatted text from different document elements like tables, titles, section headers, and general text.
+
+## 🎯 Key Features
+
+### 🤖 Intelligent OCR Processing
+- **Nanonets OCR Integration**: Utilizes advanced Nanonets-OCR-s model for text extraction
+- **Block-Specific Prompts**: Custom extraction prompts for different document element types
+- **Format Preservation**: Maintains original formatting, layout, and structure
+
+### 🔧 Block-Type Specific Processing
+- **Tables**: Extracts with ASCII-style borders and perfect column alignment
+- **Titles**: Preserves centering, font size, and special formatting
+- **Section Headers**: Maintains formatting variations and positioning
+- **Text Blocks**: Preserves line breaks, spacing, and formatting indicators
+
+## 📊 Core Components
+
+### BlockTextExtractor Class
+```python
+class BlockTextExtractor:
+    def __init__(self, model_path="nanonets/Nanonets-OCR-s", cache_dir="C:/models")
+    def get_block_prompt(self, block_type)
+    def extract_from_blocks(self, image_path, layout_results, target_labels=None)
+    def save_results(self, results, output_path)
+```
+
+### Prompt Templates
+Specialized prompts for different block types:
+- **Table Extraction**: ASCII-formatted tables with borders and alignment
+- **Text Extraction**: Formatting-preserving text with markdown indicators
+- **Title/Header Extraction**: Format-aware extraction with positioning
+
+## 🚀 Usage
+
+```bash
+python run_block_data_extraction.py \
+    --image path/to/document.png \
+    --layout-results path/to/layout_analysis.json \
+    --output extraction_results \
+    --labels "table,title,section-header" \
+    --model "nanonets/Nanonets-OCR-s" \
+    --cache-dir "C:/models"
+```
+
+### Parameters
+- `--image`: Path to source document image
+- `--layout-results`: JSON file with layout analysis results
+- `--output`: Base name for output files (without extension)
+- `--labels`: Comma-separated list of block types to extract
+- `--model`: OCR model identifier (default: nanonets/Nanonets-OCR-s)
+- `--cache-dir`: Directory for model caching
+
+## 🔄 Processing Pipeline
+
+### 1. Input Preparation
+- Load document image using PIL
+- Parse layout analysis results from JSON
+- Filter target blocks based on specified labels
+
+### 2. Block Processing
+- Crop each block region from the main image
+- Apply block-type specific prompt templates
+- Extract text using Nanonets OCR with customized instructions
+
+### 3. Result Compilation
+- Compile extracted text with metadata (block ID, label, confidence, bounding box)
+- Handle temporary file management for OCR processing
+
+### 4. Output Generation
+- Save structured results in JSON format
+- Create human-readable text report with block details
+- Provide comprehensive extraction summaries
+
+## 📁 Output Files
+
+1. **`{output}.json`**: Structured JSON with all extraction metadata
+2. **`{output}.txt`**: Formatted text report with block-by-block results
+
+## 📋 Output Structure
+
+### JSON Output
+```json
+[
+  {
+    "block_id": 0,
+    "label": "table",
+    "confidence": 0.95,
+    "bounding_box": [100, 150, 300, 400],
+    "text": "+------------+----------+\n| Header 1   | Header 2 |\n+------------+----------+"
+  }
+]
+```
+
+### Text Report Format
+```
+=== BLOCK 1 ===
+Type: table
+Confidence: 0.95
+Position: [100, 150, 300, 400]
+
+EXTRACTED TEXT:
++------------+----------+
+| Header 1   | Header 2 |
++------------+----------+
+```
+
+## ⚙️ Configuration Options
+
+- **Model Selection**: Customizable Nanonets OCR model
+- **Cache Management**: Local model caching for performance
+- **Selective Extraction**: Target specific block types only
+- **Prompt Customization**: Block-specific extraction rules
+
+## 🛡️ Error Handling
+
+- **Comprehensive Logging**: Detailed processing information
+- **Exception Management**: Graceful error recovery
+- **Temporary File Cleanup**: Automatic resource management
+- **Model Loading Validation**: Proper initialization checks
+
+## 💡 Use Cases
+
+- **Document Digitization**: Convert scanned documents to structured text
+- **Table Extraction**: Precisely extract tabular data with formatting
+- **Form Processing**: Extract specific form fields and sections
+- **Research Paper Analysis**: Process academic documents with complex layouts
+- **Legal Document Processing**: Extract structured content from legal texts
+
+## 📦 Dependencies
+
+- **PIL/Pillow**: Image processing and cropping
+- **Nanonets OCR**: Advanced text extraction model
+- **Standard Libraries**: json, logging, tempfile, os
+
+---
+
+**Suggested Title:** **Intelligent Document Block Extraction with Nanonets OCR**
+
+**Alternative Titles:**
+1. Structured Text Extraction from Document Layouts
+2. Advanced OCR Block Processing Pipeline
+3. Document Element-Specific Text Extraction System
+4. Nanonets-Powered Layout-Aware OCR Extraction
+5. Format-Preserving Document Block Text Extractor

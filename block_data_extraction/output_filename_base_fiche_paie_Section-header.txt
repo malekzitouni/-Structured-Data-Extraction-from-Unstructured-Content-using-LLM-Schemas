@@ -1,0 +1,90 @@
+=== BLOCK 1 ===
+Type: Section-header
+Confidence: 0.86
+Position: [20.846712112426758, 961.2424926757812, 546.2909545898438, 980.5446166992188]
+
+EXTRACTED TEXT:
+NET À PAYER AVANT IMPOT SUR LE REVENU
+
+==================================================
+
+=== BLOCK 2 ===
+Type: Section-header
+Confidence: 0.83
+Position: [98.05738830566406, 50.36603927612305, 426.459716796875, 72.67367553710938]
+
+EXTRACTED TEXT:
+Exemple de nom d'entreprise
+
+==================================================
+
+=== BLOCK 3 ===
+Type: Section-header
+Confidence: 0.77
+Position: [706.6531982421875, 221.1151580810547, 903.8355102539062, 238.875]
+
+EXTRACTED TEXT:
+IMAN MAHROUG
+
+==================================================
+
+=== BLOCK 4 ===
+Type: Section-header
+Confidence: 0.65
+Position: [706.6408081054688, 40.299530029296875, 1039.7781982421875, 64.64155578613281]
+
+EXTRACTED TEXT:
+BULLETIN DE PAIE
+
+==================================================
+
+=== BLOCK 5 ===
+Type: Section-header
+Confidence: 0.65
+Position: [23.695964813232422, 1157.468994140625, 188.59739685058594, 1173.955078125]
+
+EXTRACTED TEXT:
+Impot sur le revenu
+
+==================================================
+
+=== BLOCK 6 ===
+Type: Section-header
+Confidence: 0.53
+Position: [31.316755294799805, 1291.529541015625, 130.84446716308594, 1307.0587158203125]
+
+EXTRACTED TEXT:
+Congrès Payes
+
+==================================================
+
+=== BLOCK 7 ===
+Type: Section-header
+Confidence: 0.46
+Position: [595.6406860351562, 1334.6829833984375, 899.859375, 1355.804443359375]
+
+EXTRACTED TEXT:
+NET À PAYER AU SALARIÉ
+
+==================================================
+
+=== BLOCK 8 ===
+Type: Section-header
+Confidence: 0.46
+Position: [211.9581298828125, 391.2996520996094, 300.175048828125, 408.1819152832031]
+
+EXTRACTED TEXT:
+Rubriques
+
+==================================================
+
+=== BLOCK 9 ===
+Type: Section-header
+Confidence: 0.31
+Position: [945.5524291992188, 963.0135498046875, 1061.7021484375, 984.0245361328125]
+
+EXTRACTED TEXT:
+4 204,28 €
+
+==================================================
+
