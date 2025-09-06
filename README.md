@@ -3,7 +3,8 @@
 An intelligent document processing system that transforms complex, unstructured KYC documents into clean, structured data using Large Language Models and advanced computer vision techniques.
 
  <img width="1002" height="372" alt="image" src="https://github.com/user-attachments/assets/3d89a02e-6bed-41ab-aefb-61145f64e9db" />
-## Inputs
+
+ 
 
 ### Document
 <img width="800" alt="Input Document" src="https://github.com/user-attachments/assets/bac8e45b-110e-4857-b04c-63f3fbd902a5" />
@@ -910,6 +911,7 @@ class ModelCacheManager:
 - **Memory Efficiency**: 85% reduction in memory usage with 4-bit quantization
 - **Field Coverage**: 98.2% of required fields successfully extracted
 - **Confidence Calibration**: 92% correlation between predicted and actual accuracy
+
 
 
 
