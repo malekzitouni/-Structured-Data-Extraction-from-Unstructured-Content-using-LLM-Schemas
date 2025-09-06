@@ -1,0 +1,34 @@
+## Invoice no: 51109338
+
+Date of issue:
+
+## Seller:
+
+Andrews, Kirby and Valdez 58861 Gonzalez Prairie Lake Daniellefurt, IN 57228
+
+Tax Id: 945-82-2137
+
+04/13/2013
+
+## Client:
+
+Becker Ltd 8012 Stewart Summit Apt. 455 North Douglas, AZ 95355
+
+Tax Id: 942-80-0517
+
+## ITEMS
+
+|   No. | Description                                                                     | Qty   | UM   | Net price   | Net worth   | VAT [%]   | Gross worth   |
+|     4 | 12-Core Gaming Computer Desktop PC Tower Affordable GAMING PC 8GB AMD Vega RGB  | 3,00  | each | 464,89      | 1 394,67    | 109       | 1 534,14      |
+|     5 | Custom Build Dell Optiplex 9020 MT i5-4570 3.2OGHz Desktop Computer PC          | 5,00  | each | 221,99      | 1 109,95    | 10%       | 1 220,95      |
+|     6 | Dell Optiplex 990 MT Computer PC Quad Core i7 3.4GHz 16GB 2TB HD Windows 10 Pro | 4,00  | each | 269,95      | 1 079,80    | 10%       | 1 187,78      |
+|     7 | Dell Core 2 Duo Desktop Computer Windows XP Pro 4GB 500GB                       | 5,00  | each | 168,00      | 840,00      | 109       | 924,00        |
+
+## SUMMARY
+
+| VAT [%]   | Net worth   | VAT      | Gross worth   |
+|-----------|-------------|----------|---------------|
+| 109       | 5 640,17    | 564,02   | 6 204,19      |
+| Total     | $ 5 640,17  | $ 564,02 | $ 6 204,19    |
+
+

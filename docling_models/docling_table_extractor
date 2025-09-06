@@ -1,0 +1,37 @@
+# Docling Table Extractor Documentation
+
+## Overview
+
+This **Python script** provides a streamlined solution for extracting tables from document images using the **Docling library**. It automatically detects tables within documents and exports each one as a separate **CSV file** with proper pandas DataFrame formatting.
+
+## Script Features
+
+### 🔍 Automatic Table Detection
+- Identifies all tables within a document image  
+- No manual table selection required  
+- Supports various document formats (JPG, PNG, PDF)  
+
+### 📊 Data Structure Preservation
+- Maintains original table layout and relationships  
+- Preserves column headers and data types  
+- Handles complex table structures automatically  
+
+### 💾 Efficient Export System
+- **Individual CSV files** for each detected table  
+- **Sequential naming** with source document reference  
+- **Pandas integration** for reliable data handling  
+
+### 📁 Organized Output Management
+- Creates dedicated output directory (`scratch_table/`)  
+- Generates descriptive filenames with table indexing  
+- Automatic directory creation if it doesn't exist  
+
+## Technical Implementation
+
+### Core Dependencies
+```python
+import pandas as pd                    # DataFrame manipulation and CSV export
+from docling.document_converter import DocumentConverter  # Document processing
+from pathlib import Path               # Modern path handling
+import time                            # Performance timing
+import logging                         # Process monitoring
