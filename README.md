@@ -3,13 +3,16 @@
 An intelligent document processing system that transforms complex, unstructured KYC documents into clean, structured data using Large Language Models and advanced computer vision techniques.
 
  <img width="1002" height="372" alt="image" src="https://github.com/user-attachments/assets/3d89a02e-6bed-41ab-aefb-61145f64e9db" />
-Inputs :
-- **Document**:
-<img width="539" height="572" alt="image" src="https://github.com/user-attachments/assets/bac8e45b-110e-4857-b04c-63f3fbd902a5" />
-- **Dynamic Schema**:
-<img width="986" height="292" alt="image" src="https://github.com/user-attachments/assets/f439fa2d-4e7f-4d09-8293-c3668881acbd" />
-- **Strucutred Output**:
-<img width="1153" height="168" alt="image" src="https://github.com/user-attachments/assets/566d19c8-549b-4d14-a36e-ed97005092d9" />
+Inputs:
+
+Document:
+<img width="539" height="572" alt="Input Document" src="https://github.com/user-attachments/assets/bac8e45b-110e-4857-b04c-63f3fbd902a5" />
+
+Dynamic Schema:
+<img width="986" height="292" alt="Dynamic Schema" src="https://github.com/user-attachments/assets/f439fa2d-4e7f-4d09-8293-c3668881acbd" />
+
+Structured Output:
+<img width="1153" height="168" alt="Structured Output" src="https://github.com/user-attachments/assets/566d19c8-549b-4d14-a36e-ed97005092d9" />
 
 
 
@@ -906,6 +909,7 @@ class ModelCacheManager:
 - **Memory Efficiency**: 85% reduction in memory usage with 4-bit quantization
 - **Field Coverage**: 98.2% of required fields successfully extracted
 - **Confidence Calibration**: 92% correlation between predicted and actual accuracy
+
 
 
 
