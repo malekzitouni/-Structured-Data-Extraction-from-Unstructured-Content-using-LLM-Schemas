@@ -1,0 +1,123 @@
+# Key Workflow
+ 1. Document Layout Analysis (DLA) :  Detects structural elements (text, tables,
+ headers, lists, forms) using RT-DETR-based models trained on 17 layout labels.
+
+  specified script files: run_layout_analysis.py 
+
+
+ 2. Table Structure Recognition (TSR) :  Identifies rows, columns, cells using
+ Microsoft’s Table Transformer.
+
+  specified script files: run_table_analysis.py 
+ 3. OCR Extraction :  Extracts text from detected regions (tables, paragraphs, etc.).
+
+    specified script files: run_block_data_extraction.py
+ 4. Schema-Based Mapping with LLMs :  Matches extracted text to user defined
+ schema fields.
+    specified script files: mistral_tinyllama_mapper.py
+
+
+
+
+#  requirements.txt for run_layout_analysis.py
+
+# Core scientific & ML stack
+torch>=2.0.0
+numpy>=1.21.0
+
+# Hugging Face ecosystem
+transformers>=4.33.0
+huggingface-hub>=0.19.0
+safetensors>=0.3.1
+
+# Image processing
+Pillow>=9.5.0
+
+# Logging and CLI (standard lib, no need to add: logging, argparse, threading, sys, os, json, time, pathlib, typing)
+
+# Optional: to ensure compatibility with CPU/GPU
+accelerate>=0.20.0
+
+# Models (downloaded dynamically at runtime via huggingface_hub)
+# Supported repos:
+# - ds4sd/docling-layout-old
+# - ds4sd/docling-layout-heron
+# - ds4sd/docling-layout-heron-101
+# - ds4sd/docling-layout-egret-medium
+# - ds4sd/docling-layout-egret-large
+# - ds4sd/docling-layout-egret-xlarge
+
+
+# requirements.txt for run_table _analysis.py
+# Core scientific & ML stack
+torch>=2.0.0
+numpy>=1.21.0
+
+# Hugging Face ecosystem
+transformers>=4.33.0
+huggingface-hub>=0.19.0
+safetensors>=0.3.1
+
+# Image processing
+Pillow>=9.5.0
+
+# Optional: for GPU/CPU compatibility and efficient inference
+accelerate>=0.20.0
+
+# Model used:
+# microsoft/table-transformer-structure-recognition
+
+
+
+# requirements.txt for run_block_data_extraction.py
+# Core dependencies
+torch>=2.0.0
+numpy>=1.21.0
+
+# Hugging Face ecosystem (used internally by StructuredNanonetsExtractor / models)
+transformers>=4.33.0
+huggingface-hub>=0.19.0
+safetensors>=0.3.1
+
+# Image handling
+Pillow>=9.5.0
+
+# Optional: for GPU/CPU compatibility
+accelerate>=0.20.0
+
+# Local module
+# structured_nanonets_extractor must be available in your environment (local .py file or package)
+
+# Model
+# nanonets/Nanonets-OCR-s (loaded from local cache directory  C:/models)
+
+
+
+# requirements.txt for mistral_tinyllama_mapper.py
+
+# Core dependencies
+pydantic>=2.4,<3
+torch>=2.1,<3
+transformers>=4.41,<5
+accelerate>=0.26
+safetensors>=0.4
+sentencepiece>=0.1.99
+
+# Optional: 4-bit quantization (used when CUDA is available)
+bitsandbytes>=0.42 ; platform_system != "Windows"
+# For Windows CUDA users, you may need the community build instead:
+# bitsandbytes-windows>=0.41.1 ; platform_system == "Windows"
+
+# Utilities
+numpy>=1.24
+
+# ------------------------------------------------------------------
+# Local Models (download separately, not via pip):
+#   Place models in ./models/ and pass their paths to the script:
+#   --mistral-model ./models/mistral
+#   --tinyllama-model ./models/tinyllama
+#
+# Examples:
+#   ./models/mistral      -> Mistral-7B-Instruct-v0.2 (HuggingFace format)
+#   ./models/tinyllama    -> TinyLlama-1.1B-Chat-v1.0 (HuggingFace format)
+# ------------------------------------------------------------------
