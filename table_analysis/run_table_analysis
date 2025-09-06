@@ -1,0 +1,101 @@
+# 📑 Table Structure Recognition with Microsoft Table Transformer
+
+---
+
+## 📖 Introduction
+
+Many scanned documents (invoices, reports, research papers, forms) contain **tables** that store valuable structured information.  
+Standard OCR tools usually extract raw text but **lose the tabular structure**, making it difficult to recover rows, columns, and cells.  
+
+This project provides a **Python-based pipeline** that uses **[Microsoft Table Transformer (TATR)](https://huggingface.co/microsoft/table-transformer-structure-recognition)** to extract **table structures** from document images.
+
+The system operates as a **second stage** in a document understanding workflow:
+
+1. **Layout Detection (Stage 1)**  
+   An external layout analysis model (e.g., LayoutLMv3, Detectron2, or DocLayout-YOLO) detects table regions in the document.  
+
+2. **Table Structure Recognition (Stage 2 - this script)**  
+   For each detected table, this script extracts **rows, columns, and cells** as structured bounding boxes with confidence scores.
+
+This two-stage design allows high-precision extraction of **complex tables**, preserving structure for downstream processing (e.g., conversion to CSV, JSON, or Markdown tables).
+
+---
+
+## ✨ Features
+
+- ✅ **Table-Centric Recognition**  
+  Detects elements like rows, columns, cells, and spanning cells.
+
+- ✅ **Bounding Box Extraction**  
+  Provides coordinates (`x1, y1, x2, y2`) for every element.
+
+- ✅ **Confidence Scoring**  
+  Each prediction includes a confidence score, allowing you to filter noise.
+
+- ✅ **Debug Image Saving**  
+  Saves cropped table images for visual inspection.
+
+- ✅ **CPU & GPU Support**  
+  Runs on CPU by default, but supports CUDA acceleration.
+
+- ✅ **Error-Resilient Processing**  
+  Handles invalid bounding boxes, model load errors, and inference failures gracefully.
+
+---
+
+## 🧠 Technical Background
+
+### Model
+- **Name**: `microsoft/table-transformer-structure-recognition`  
+- **Architecture**: DETR-based (Object Detection Transformer)  
+- **Task**: Object detection of table components  
+- **Framework**: Hugging Face `transformers` + PyTorch  
+
+### Classes Detected
+Depending on the configuration, the model recognizes:
+- `table row`
+- `table column`
+- `table cell`
+- `table spanning cell`
+
+### Outputs
+Each detected element contains:
+- **label** → type of element (`cell`, `row`, etc.)  
+- **score** → confidence (0 to 1)  
+- **box** → bounding box `[x1, y1, x2, y2]` in image coordinates  
+
+---
+
+## 📂 Project Structure
+
+.
+├── table_structure_recognizer.py # Main script
+├── debug_tables/ # Cropped table images (auto-created)
+├── table_output/ # JSON output files
+└── README.md # Documentation
+
+yaml
+Copy code
+
+- **debug_tables/** → cropped images of tables (useful for debugging)  
+- **table_output/** → structured JSONs with detected elements  
+
+---
+
+## ⚙️ Installation
+
+### 1. Create environment
+```bash
+python3 -m venv venv
+source venv/bin/activate
+
+
+
+## Usage
+##Run from CLI
+python table_structure_recognizer.py \
+  --image path/to/document.png \
+  --layout-results layout_results.json \
+  --output-dir table_output \
+  --device cuda \
+  --threshold 0.1
