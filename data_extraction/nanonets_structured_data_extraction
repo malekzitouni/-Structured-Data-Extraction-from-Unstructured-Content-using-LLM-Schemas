@@ -1,0 +1,87 @@
+# Structured Document OCR Extraction Script
+
+## Overview
+A Python script that extracts structured text and tables from scanned documents using the Nanonets OCR model. The tool focuses on preserving exact document layouts, particularly tables with ASCII-style borders.
+
+## Features
+- **High-precision OCR extraction** with layout preservation
+- **ASCII table rendering** with visible borders
+- **GPU/CPU support** with automatic device detection
+- **Memory optimization** for large documents
+- **Customizable prompts** for specific extraction needs
+
+## Requirements
+### Core Dependencies
+- `torch` - PyTorch deep learning framework
+- `transformers` - Hugging Face transformers library
+- `Pillow` - Image processing capabilities
+- `pynvml` - NVIDIA GPU memory monitoring
+
+### Model
+- Default model: `nanonets/Nanonets-OCR-s`
+- Automatic download and caching
+
+## Usage
+```bash
+python script.py -i input_image.jpg -o output.txt
+```
+
+### Arguments
+- `-i/--image`: (Required) Path to input image file
+- `-o/--output`: Output file path (default: "structured_output.txt")
+- `-m/--model`: Model identifier/path (default: "nanonets/Nanonets-OCR-s")
+- `-c/--cache_dir`: Model cache directory (default: "C:/models")
+
+## Key Components
+
+### StructuredNanonetsExtractor Class
+Main class handling OCR extraction with these methods:
+
+#### `__init__()`
+- Initializes environment variables
+- Sets up GPU memory monitoring
+- Configures model parameters
+
+#### `load_model()`
+- Detects available hardware (GPU/CPU)
+- Loads appropriate precision model
+- Sets up processor for image/text handling
+
+#### `extract_text()`
+- Processes images through the OCR pipeline
+- Applies custom prompt templates
+- Generates structured output with ASCII tables
+
+### Default Prompt Template
+Comprehensive instructions for the OCR model including:
+- Table extraction rules with ASCII borders
+- Formatting requirements for various elements
+- Special handling for merged cells and visual elements
+- Preservation of exact visual layout
+
+## Output Format
+- **Tables**: Rendered with ASCII borders using `+`, `-`, and `|` characters
+- **Special elements**: Tagged with XML-like annotations
+- **Layout preservation**: Exact replication of original document structure
+
+## Performance Features
+- Automatic GPU memory management
+- Half-precision inference when using GPU
+- Progress monitoring and timing metrics
+- Error handling and fallback mechanisms
+
+## Supported Elements
+- Tables with visible borders
+- Equations (LaTeX format)
+- Images with descriptions
+- Watermarks and page numbers
+- Checkboxes (checked/unchecked)
+- Various text formatting (bold, italic)
+
+## Error Handling
+- Comprehensive exception handling
+- GPU memory monitoring
+- Model loading verification
+- Processing failure recovery
+
+This script is particularly useful for digitizing structured documents like invoices, reports, and forms while maintaining their original layout and tabular structure.

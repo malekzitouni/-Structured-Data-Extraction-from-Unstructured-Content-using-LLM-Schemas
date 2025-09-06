@@ -1,0 +1,70 @@
+Exemple de nom d'entreprise
+123 Impasse Eugène Boudin
+83130 La Garde
+Siret : 98141753800015
+Code NAF : 4932Z
+Urssaf :
+Convention : 0016 - Convention collective nationale des transports routiers et activités auxiliaires du transport
+
+Matricule : 001
+N° Sécurité Sociale : 172023155521988
+Entrée le : 01/11/2023
+Emploi : Président
+Qualification : Non Cadre
+Coefficient : 225
+Plafond Sécurité Sociale : 3 925,00 €
+Contrat : CDI
+
+BULLETIN DE PAIE
+Période du : 01/05/2025 au : 31/05/2025
+Paiement le : 31/05/2025
+
+IMAN MAHROUG
+321 Impasse Eugène Boudin,
+83130 La Garde
+
+| Rubriques | Base | Taux Salarial | Cot. Salariales | Taux Patronal | Cot. Patronales |
+| :-------- | :--- | :------------ | :-------------- | :------------ | :------------- |
+| SALAIRE DE BASE | 5 200,00 € | 34,28 |               |               |                |
+| SALAIRE BRUT | 5 200,00 € |       |               |               |                |
+| SANTÉ |       |           |               |               |                |
+| Sécurité sociale | 5 200,00 € |       |               |               |                |
+| ACCIDENTS DU TRAVAIL - MALADIES PROFESSIONNELLES | 5 200,00 € |       |               |               |                |
+| RETRAITE |       |           |               |               |                |
+| Assurance Vieillesse déplafonnée | 5 200,00 € | 0,40 | 20,80 € | 2,02 | 105,04 € |
+| Assurance Vieillesse plafonnée | 3 925,00 € | 6,90 | 270,83 € | 8,55 | 335,59 € |
+| Retraite complémentaire tranche: AGIRC-ARRCO | 5 200,00 € | 3,15 | 163,80 € | 4,72 | 245,44 € |
+| CEG tranche 1 | 5 200,00 € | 0,86 | 44,72 € | 1,29 | 67,08 € |
+| FAMILLE-SÉCURITÉ SOCIALE | 5 200,00 € |       |               |               |                |
+| ASSURANCE CHÔMAGE |       |           |               |               |                |
+| Assurance chômage tranche A | 5 200,00 € |       |               |               |                |
+| Assurance chômage tranche AGS (FNGS) | 5 200,00 € |       |               |               |                |
+| CSG déductible | 5 109,00 € | 6,80 | 347,41 € |       |                |
+| AUTRES CONTRIBUTIONS DUES PAR L'EMPLOYEUR | 5 200,00 € |       |               |               |                |
+| TOTAL DES RETENUES |       |           |               |               |                |
+| CSG/CRDS imposable à l'impôt sur le revenu | 5 109,00 € | 2,90 | 148,16 € | 847,56 € | 1 677,93 € |
+
+MONTANT NET SOCIAL | 4 352,44 €
+NET À PAYER AVANT IMPOT SUR LE REVENU | 4 204,28 €
+Dont évolution de la rémunération liée à la suppression des cotisations chômage et maladie | 76,95 €
+
+Heures période | 151,67 | Cumul bases | 26 000,00 € | Total cot. patronales | 1 677,93 €
+Cumul heures | 758,35 | Cumul bruts | 26 000,00 € | Total des retenues | 2 525,49 €
+Cumul heures sup. | 0,00 | Cumul imposable | 21 762,20 € | Coût global période | 6 877,93 €
+
+Impot sur le revenu
+| Montant net imposable | Base | Taux Neutre | Montant | Cumul annuel |
+| :-------------------- | :--- | :---------- | :----- | :----------- |
+| Montant net imposable |      |             |        |              |
+| Impôt sur le revenu prélevé à la source | 4 352,44 € | 17,10 % | 744,27 € | 3 721,34 € |
+| Montant net des heures compl/supl exonérées | 0,00 € |         |        |              |
+
+Congés Payés
+En cours | 0,00
+Acquis | 0,00
+Pris | 0,00
+Solde | 0,00
+
+NET À PAYER AU SALARIÉ | 3 460,01 €
+
+Dans votre intérêt, et pour vous aider à faire valoir vos droits, conservez ce bulletin de paie sans limitation de durée. Informations complémentaires: www.service-public.fr

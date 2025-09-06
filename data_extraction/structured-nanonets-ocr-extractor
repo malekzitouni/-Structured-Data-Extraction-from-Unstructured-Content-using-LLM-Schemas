@@ -1,0 +1,136 @@
+# Structured Nanonets OCR Extractor
+
+## 📖 Detailed Description
+
+The **Structured Nanonets OCR Extractor** is an advanced **Python-based OCR (Optical Character Recognition) pipeline** designed for extracting **structured tables** and **document elements** from scanned images with high fidelity.  
+
+Unlike traditional OCR systems that output plain text or loosely structured data, this script ensures **full table reconstruction** in **ASCII-bordered format** with exact row/column alignment. It faithfully reproduces the visual structure of the original scanned document, making it ideal for professional use cases where formatting integrity is critical.  
+
+---
+
+## 🔍 What Makes It Different?
+
+1. **Table-Centric OCR**  
+   - Extracts all tabular data and renders it with **ASCII borders** (`+`, `-`, `|`)  
+   - Ensures **column alignment**, uniform widths, and consistent spacing  
+   - Supports **merged cells**, **headers**, and **empty cells** with precise formatting  
+
+2. **Faithful Content Preservation**  
+   - Captures **textual content** exactly as it appears in the scan (no summarization)  
+   - Supports **currencies, percentages, signs, bullet points, and symbols**  
+   - Preserves **bold/italic text**, checkboxes (☐ / ☑), and special annotations  
+
+3. **Structured Metadata Support**  
+   - Extracts **page numbers**, **watermarks**, and inline **image placeholders**  
+   - Renders equations in **LaTeX format**  
+   - Flags broken rows or unusual structures for later review  
+
+4. **Optimized for Performance**  
+   - **GPU Acceleration**: Automatically uses CUDA-enabled GPUs with float16 precision  
+   - **CPU Compatibility**: Falls back to float32 precision when GPU is unavailable  
+   - Implements **automatic GPU memory cleanup** and error handling  
+
+5. **Robust Error Handling**  
+   - Handles corrupted images gracefully  
+   - Reports model loading issues, GPU memory errors, and generation timeouts  
+   - Logs warnings and maintains consistent pipeline execution  
+
+---
+
+## 🧾 Example ASCII Table Output
+
+Example of a faithfully extracted table with borders and formatting:
+
++------------+----------+---------+
+| Product | Quantity | Price |
++============+==========+=========+
+| Apple | 10 | 5.00 € |
++------------+----------+---------+
+| Banana | 6 | 3.60 € |
++------------+----------+---------+
+
+markdown
+Copy code
+
+- **Empty cells** are rendered as `|        |`  
+- **Merged cells** are handled using double pipes (`||`)  
+- **Headers** are preserved with alignment markers (`=` row)  
+
+---
+
+## ⚙️ Technical Details
+
+- **Model**: Based on `nanonets/Nanonets-OCR-s` from Hugging Face  
+- **Frameworks**:  
+  - `transformers` for model inference  
+  - `torch` for GPU/CPU tensor computation  
+  - `PIL` for image handling  
+  - `pynvml` for GPU memory monitoring  
+- **Precision Handling**:  
+  - GPU → `float16`  
+  - CPU → `float32`  
+- **Maximum Tokens**: 4000 (ensures large tables are fully captured)  
+- **Caching**: Model weights stored locally (default: `C:/models`)  
+
+---
+
+## 🎯 Use Cases
+
+- **Financial & Accounting**  
+  - Extract invoice tables, balance sheets, and transaction logs  
+  - Preserve currency symbols, percentages, and numerical formatting  
+
+- **Academic & Research**  
+  - Extract experimental result tables from scanned papers  
+  - Maintain statistical accuracy and structured formatting  
+
+- **Business & Compliance**  
+  - Digitize compliance forms, legal documents, and official reports  
+  - Retain watermarks, signatures, and checkboxes  
+
+- **Data Migration**  
+  - Convert scanned archives into structured digital datasets  
+  - Ensure no data is lost during OCR conversion  
+
+---
+
+## 🚀 Workflow Overview
+
+1. **Environment Setup**  
+   - Loads required libraries, configures cache, and checks GPU availability  
+
+2. **Model Loading**  
+   - Downloads or loads from cache the Nanonets OCR model and processor  
+   - Prints system environment info (Python, PyTorch, GPU, CUDA)  
+
+3. **Image Processing**  
+   - Opens input image with `PIL`  
+   - Prepares OCR-friendly prompts with ASCII table extraction rules  
+
+4. **OCR Inference**  
+   - Runs model inference with constrained decoding  
+   - Extracts structured tables and non-tabular elements  
+
+5. **Output Handling**  
+   - Saves the extracted structured text to `.txt`  
+   - Displays a preview of the first 500 characters for verification  
+
+
+
+## ✅ Advantages Over Traditional OCR
+
+### **Accuracy Benefits**
+- Table-aware recognition with preserved alignment  
+- Handles merged/empty cells correctly  
+- Captures metadata (page numbers, checkboxes, watermarks)  
+
+### **Simplicity Benefits**
+- No training or fine-tuning required  
+- Works out-of-the-box with Hugging Face model hub  
+- Direct structured ASCII output, ready for parsing  
+
+### **Reliability Benefits**
+- Consistent results across multiple document types  
+- Graceful failure handling with logging  
+- Production-ready pipeline  
+

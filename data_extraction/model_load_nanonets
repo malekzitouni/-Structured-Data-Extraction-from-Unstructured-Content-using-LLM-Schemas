@@ -1,0 +1,78 @@
+# Nanonets OCR Model Initialization and Document Processing Script
+
+This Python script initializes the Nanonets OCR model and processes document images to extract structured text with special formatting for tables, equations, images, and other document elements.
+
+## Script Overview
+
+```python
+from PIL import Image
+from transformers import AutoTokenizer, AutoProcessor, AutoModelForImageTextToText
+import os
+import warnings
+import torch
+```
+
+## Key Features
+
+### 1. Environment Configuration
+- Sets Hugging Face verbosity to error level only
+- Disables symlink warnings for Hugging Face Hub
+- Suppresses specific warnings about image processors and generation flags
+- Creates a local model cache directory on the C drive
+
+### 2. Model Initialization
+- Loads the Nanonets OCR model with automatic device mapping
+- Uses automatic precision selection (FP16/FP32) based on hardware
+- Implements disk offloading for memory optimization
+- Loads tokenizer and processor with fast tokenization
+
+### 3. OCR Processing Function
+- Extracts text from document images with natural reading preservation
+- Converts tables to HTML format
+- Renders equations in LaTeX representation
+- Handles images with descriptive captions
+- Formats watermarks and page numbers with special tags
+- Uses appropriate symbols for checkboxes (☐ and ☑)
+
+## Usage
+
+The script automatically initializes the model and processes a specified image:
+
+```python
+image_path = r"C:\Users\Pc\Desktop\axe_docl\batch1-0001.jpg"
+result = ocr_page_with_nanonets_s(image_path, model, processor, max_new_tokens=15000)
+```
+
+## Output Format
+
+The OCR extraction returns structured text with special formatting:
+- **Tables**: Converted to HTML format
+- **Equations**: Rendered in LaTeX representation
+- **Images**: Wrapped in `<img>` tags with descriptions
+- **Watermarks**: Wrapped in `<watermark>` tags
+- **Page numbers**: Wrapped in `<page_number>` tags
+- **Checkboxes**: Represented with ☐ (unchecked) and ☑ (checked)
+
+## Error Handling
+
+The script includes comprehensive error handling for:
+- Model initialization failures
+- Image loading issues
+- Processing errors
+- Provides troubleshooting suggestions for common problems
+
+## Technical Details
+
+- Uses Hugging Face Transformers library with custom processor
+- Implements efficient memory management with disk offloading
+- Supports both CPU and GPU processing with automatic device mapping
+- Allows configuration of token limits for different document sizes
+
+## Performance Optimization
+
+- Automatic precision selection based on available hardware
+- Disk offloading to handle large models
+- Fast tokenization for improved processing speed
+- Efficient memory usage with low CPU memory configuration
+
+This script is particularly useful for digitizing structured documents with complex layouts, preserving the original formatting and structure in the extracted output.

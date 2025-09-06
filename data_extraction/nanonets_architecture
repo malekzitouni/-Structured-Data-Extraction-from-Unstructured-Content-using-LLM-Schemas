@@ -1,0 +1,57 @@
+# Model Architecture Inspector Script
+
+This Python script loads a Hugging Face image-to-text model and saves its detailed architecture to a text file for analysis and debugging.
+
+## Script Overview
+
+```python
+from transformers import AutoModelForImageTextToText
+import os
+import torch
+
+MODEL_PATH = "nanonets/Nanonets-OCR-s"
+CACHE_DIR = "C:/models"
+ARCHITECTURE_FP = os.path.join(CACHE_DIR, "model_architecture.txt")
+```
+
+## Key Features
+
+1. **Model Loading**: Downloads and loads the specified Hugging Face model with optimized settings
+2. **Architecture Analysis**: Extracts detailed information about the model structure
+3. **Comprehensive Reporting**: Generates a complete architecture report including:
+   - Model class and specifications
+   - Device placement (CPU/GPU)
+   - Data type information
+   - Total parameter count
+   - Vision encoder structure
+   - Text decoder structure
+   - Other model components
+
+## Usage
+
+Run the script directly to generate the architecture report:
+
+```bash
+python model_architecture_inspector.py
+```
+
+## Output
+
+The script creates a detailed text file at `C:/models/model_architecture.txt` containing:
+- Model metadata and specifications
+- Complete vision encoder architecture
+- Complete text decoder architecture
+- All other model components
+
+## Technical Details
+
+- Uses `torch.float32` precision by default (can be changed to `torch.float16` for GPU)
+- Implements automatic device mapping (`device_map="auto"`)
+- Optimizes for low CPU memory usage during loading
+- Provides both full file output and console preview
+
+This script is particularly useful for:
+- Understanding model structure before integration
+- Debugging model loading issues
+- Verifying model configuration
+- Documenting model architecture for reference

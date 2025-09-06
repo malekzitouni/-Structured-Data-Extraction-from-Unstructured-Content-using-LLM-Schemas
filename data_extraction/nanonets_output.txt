@@ -1,0 +1,158 @@
+==================================================
+Starting OCR Extraction
+==================================================
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Invoice no: 51109338
+
+Date of issue: 04/13/2013
+
+**Seller:**
+Andrews, Kirby and Valdez
+58861 Gonzalez Prairie
+Lake Daniellefurt, IN 57228
+
+Tax Id: 945-82-2137
+IBAN: GB75MCRL06841367619257
+
+**Client:**
+Becker Ltd
+8012 Stewart Summit Apt. 455
+North Douglas, AZ 95355
+
+Tax Id: 942-80-0517
+
+**ITEMS**
+
+<table>
+<thead>
+<tr>
+<th>No.</th>
+<th>Description</th>
+<th>Qty</th>
+<th>UM</th>
+<th>Net price</th>
+<th>Net worth</th>
+<th>VAT [%]</th>
+<th>Gross worth</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.</td>
+<td>CLEARANCE! Fast Dell Desktop Computer PC DUAL CORE WINDOWS 10 4/8/16GB RAM</td>
+<td>3,00</td>
+<td>each</td>
+<td>209,00</td>
+<td>627,00</td>
+<td>10%</td>
+<td>689,70</td>
+</tr>
+<tr>
+<td>2.</td>
+<td>HP T520 Thin Client Computer AMD GX-212JC 1.2GHz 4GB RAM TESTED!!READ BELOW!!</td>
+<td>5,00</td>
+<td>each</td>
+<td>37,75</td>
+<td>188,75</td>
+<td>10%</td>
+<td>207,63</td>
+</tr>
+<tr>
+<td>3.</td>
+<td>gaming pc desktop computer</td>
+<td>1,00</td>
+<td>each</td>
+<td>400,00</td>
+<td>400,00</td>
+<td>10%</td>
+<td>440,00</td>
+</tr>
+<tr>
+<td>4.</td>
+<td>12-Core Gaming Computer Desktop PC Tower Affordable GAMING PC 8GB AMD Vega RGB</td>
+<td>3,00</td>
+<td>each</td>
+<td>464,89</td>
+<td>1 394,67</td>
+<td>10%</td>
+<td>1 534,14</td>
+</tr>
+<tr>
+<td>5.</td>
+<td>Custom Build Dell Optiplex 9020 MT i5-4570 3.20GHz Desktop Computer PC</td>
+<td>5,00</td>
+<td>each</td>
+<td>221,99</td>
+<td>1 109,95</td>
+<td>10%</td>
+<td>1 220,95</td>
+</tr>
+<tr>
+<td>6.</td>
+<td>Dell Optiplex 990 MT Computer PC Quad Core i7 3.4GHz 16GB 2TB HD Windows 10 Pro</td>
+<td>4,00</td>
+<td>each</td>
+<td>269,95</td>
+<td>1 079,80</td>
+<td>10%</td>
+<td>1 187,78</td>
+</tr>
+<tr>
+<td>7.</td>
+<td>Dell Core 2 Duo Desktop Computer | Windows XP Pro | 4GB | 500GB</td>
+<td>5,00</td>
+<td>each</td>
+<td>168,00</td>
+<td>840,00</td>
+<td>10%</td>
+<td>924,00</td>
+</tr>
+</tbody>
+</table>
+
+**SUMMARY**
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th>VAT [%]</th>
+<th>Net worth</th>
+<th>VAT</th>
+<th>Gross worth</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>10%</td>
+<td>5 640,17</td>
+<td>564,02</td>
+<td>6 204,19</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td></td>
+<td><strong>$ 5 640,17</strong></td>
+<td><strong>$ 564,02</strong></td>
+<td><strong>$ 6 204,19</strong></td>
+</tr>
+</tbody>
+</table>
+PS C:\Users\Pc\Desktop\axe_docl>
+PS C:\Users\Pc\Desktop\axe_docl>
+PS C:\Users\Pc\Desktop\axe_docl>
+PS C:\Users\Pc\Desktop\axe_docl>
+PS C:\Users\Pc\Desktop\axe_docl>
+
+
+
+
+
+
+
+
+
+
+
+
