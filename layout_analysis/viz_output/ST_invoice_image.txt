@@ -1,0 +1,88 @@
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Table - [44.44, 332.29, 742.7, 577.15] - 0.98
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: List-item - [59.42, 659.49, 442.25, 675.15] - 0.949
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Section-header - [45.37, 600.48, 245.19, 621.77] - 0.948
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: List-item - [59.69, 638.34, 399.41, 653.62] - 0.945
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [209.25, 702.21, 317.24, 718.35] - 0.923
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [55.77, 783.07, 95.53, 796.08] - 0.912
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [55.92, 756.04, 135.18, 768.46] - 0.912
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [55.42, 702.32, 158.64, 715.23] - 0.908
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [209.98, 783.13, 282.29, 796.06] - 0.908
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [55.6, 729.77, 170.77, 742.36] - 0.908
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [210.03, 729.7, 296.46, 742.39] - 0.902
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [209.71, 755.98, 284.65, 768.49] - 0.902
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Picture - [618.44, 687.26, 700.46, 766.68] - 0.899
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [56.58, 285.71, 121.97, 298.46] - 0.88
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [56.74, 258.08, 143.84, 270.87] - 0.862
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [56.78, 231.06, 165.44, 243.8] - 0.834
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [56.8, 178.1, 103.61, 190.37] - 0.816
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [56.22, 133.87, 117.73, 146.53] - 0.815
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [56.79, 204.0, 96.9, 216.62] - 0.807
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [592.75, 665.39, 726.33, 680.91] - 0.806
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [411.63, 133.72, 529.0, 149.55] - 0.796
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [411.25, 106.49, 514.06, 122.22] - 0.79
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [56.71, 106.66, 179.44, 119.82] - 0.787
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Key-Value Region - [54.56, 701.55, 318.74, 798.02] - 0.768
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [203.31, 258.12, 334.4, 273.87] - 0.761
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [600.86, 788.01, 716.79, 803.59] - 0.755
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [203.69, 285.36, 337.31, 301.08] - 0.753
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [411.49, 241.51, 566.9, 257.34] - 0.753
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [411.67, 160.91, 513.88, 176.77] - 0.747
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [411.26, 214.45, 530.87, 229.95] - 0.735
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [594.9, 106.49, 728.25, 122.39] - 0.729
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [203.48, 106.8, 323.9, 122.3] - 0.722
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [411.48, 188.1, 531.47, 203.72] - 0.722
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [595.1, 241.77, 683.8, 254.61] - 0.716
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [611.82, 769.32, 706.33, 785.18] - 0.715
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [203.51, 231.24, 295.63, 244.19] - 0.705
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [594.81, 188.25, 695.04, 203.47] - 0.7
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [594.9, 161.12, 710.19, 176.36] - 0.693
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [594.16, 133.74, 662.9, 149.31] - 0.688
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [202.94, 133.56, 355.63, 165.54] - 0.686
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Section-header - [410.86, 79.23, 554.24, 92.84] - 0.68
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [203.54, 203.54, 328.98, 219.14] - 0.679
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [594.81, 214.68, 683.69, 227.41] - 0.672
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Table - [408.19, 73.21, 741.93, 259.31] - 0.653
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [204.13, 177.47, 307.6, 191.88] - 0.653
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Section-header - [55.78, 79.27, 175.67, 92.72] - 0.646
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [333.09, 13.73, 451.57, 31.28] - 0.635
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Section-header - [333.09, 13.73, 451.57, 31.28] - 0.623
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Table - [53.19, 78.09, 373.03, 302.99] - 0.615
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [653.1, 554.46, 732.26, 570.51] - 0.587
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Key-Value Region - [53.19, 78.09, 373.03, 302.99] - 0.586
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Key-Value Region - [408.19, 73.21, 741.93, 259.31] - 0.566
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Key-Value Region - [592.88, 664.75, 726.9, 804.21] - 0.533
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [663.66, 528.0, 731.84, 543.85] - 0.516
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [651.1, 473.68, 731.59, 489.23] - 0.467
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [203.42, 177.26, 329.51, 219.7] - 0.461
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Key-Value Region - [600.8, 769.38, 717.04, 803.84] - 0.46
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Title - [333.09, 13.73, 451.57, 31.28] - 0.46
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [600.8, 769.38, 717.04, 803.84] - 0.44
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Key-Value Region - [592.58, 664.68, 726.82, 767.95] - 0.435
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Key-Value Region - [55.42, 663.03, 726.51, 806.81] - 0.426
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [55.78, 79.27, 175.67, 92.72] - 0.42
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Key-Value Region - [409.92, 93.94, 729.63, 261.02] - 0.417
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [671.7, 501.29, 731.67, 514.75] - 0.411
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Table - [52.04, 72.65, 742.25, 303.05] - 0.402
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Key-Value Region - [56.56, 660.44, 725.06, 806.39] - 0.4
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [667.38, 665.5, 726.37, 680.96] - 0.396
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [203.07, 133.7, 326.94, 148.21] - 0.389
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Table - [47.77, 72.53, 743.22, 577.57] - 0.376
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Key-Value Region - [408.75, 82.47, 730.95, 259.81] - 0.372
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [127.32, 554.48, 271.33, 568.59] - 0.371
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Key-Value Region - [592.66, 665.21, 726.37, 680.6] - 0.358
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Key-Value Region - [600.64, 685.97, 718.45, 803.52] - 0.355
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [592.87, 665.37, 664.59, 680.84] - 0.348
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [659.73, 788.73, 716.88, 803.77] - 0.339
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Page-header - [333.09, 13.73, 451.57, 31.28] - 0.334
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Section-header - [611.82, 769.32, 706.33, 785.18] - 0.332
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Key-Value Region - [592.79, 665.26, 726.24, 681.16] - 0.329
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [410.86, 79.23, 554.24, 92.84] - 0.323
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Page-footer - [592.75, 665.39, 726.33, 680.91] - 0.321
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Form - [44.47, 332.23, 743.0, 577.47] - 0.319
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Caption - [611.82, 769.32, 706.33, 785.18] - 0.318
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Picture - [600.86, 788.01, 716.79, 803.59] - 0.311
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Text - [600.94, 788.21, 656.54, 801.11] - 0.31
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Key-Value Region - [600.96, 788.11, 716.88, 803.59] - 0.308
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Table - [409.92, 93.94, 729.63, 261.02] - 0.306
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Page-footer - [600.86, 788.01, 716.79, 803.59] - 0.304
+ST C:\Users\Pc\Desktop\axe_docl\invoice_image.png: Key-Value Region - [52.04, 72.65, 742.25, 303.05] - 0.302

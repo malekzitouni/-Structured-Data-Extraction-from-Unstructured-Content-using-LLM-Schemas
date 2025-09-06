@@ -1,0 +1,130 @@
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Table - [13.19, 1153.37, 1149.57, 1263.68] - 0.959
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Table - [13.51, 388.11, 1145.55, 916.3] - 0.949
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Key-Value Region - [706.57, 92.61, 985.8, 124.0] - 0.912
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [345.59, 108.67, 422.92, 121.13] - 0.897
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [20.71, 1009.92, 627.09, 1026.04] - 0.89
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [706.87, 93.33, 795.78, 106.12] - 0.885
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [978.94, 1010.55, 1029.38, 1023.38] - 0.877
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [280.18, 322.2, 355.59, 335.89] - 0.874
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [428.12, 108.13, 474.98, 120.66] - 0.873
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [706.97, 110.47, 797.13, 122.82] - 0.87
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [98.84, 74.23, 286.49, 105.42] - 0.869
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [968.36, 921.03, 1038.9, 934.69] - 0.866
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [246.25, 237.44, 373.03, 250.15] - 0.865
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [189.72, 142.16, 547.95, 158.22] - 0.864
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [945.55, 963.01, 1061.7, 984.02] - 0.864
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [98.07, 142.95, 183.93, 156.12] - 0.862
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [974.78, 1338.21, 1090.04, 1359.33] - 0.862
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [94.23, 339.11, 153.59, 351.54] - 0.86
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [801.68, 111.03, 882.12, 123.26] - 0.86
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Section-header - [20.85, 961.24, 546.29, 980.54] - 0.86
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [144.74, 108.75, 263.58, 120.94] - 0.848
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Key-Value Region - [93.39, 219.53, 373.34, 353.77] - 0.844
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [94.43, 305.7, 176.23, 318.32] - 0.843
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [754.02, 1060.43, 891.89, 1075.91] - 0.841
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [31.58, 1316.75, 90.75, 1328.91] - 0.829
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [20.4, 921.08, 186.26, 933.86] - 0.827
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [706.83, 243.42, 899.72, 274.42] - 0.826
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [98.03, 126.09, 153.27, 139.02] - 0.826
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Section-header - [98.06, 50.37, 426.46, 72.67] - 0.825
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [30.92, 1342.1, 75.59, 1355.04] - 0.822
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [753.83, 1110.28, 885.92, 1126.13] - 0.818
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Page-footer - [52.8, 1432.6, 1100.11, 1447.79] - 0.818
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [653.64, 1060.67, 731.09, 1072.89] - 0.817
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [98.32, 109.5, 139.19, 121.62] - 0.815
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [373.37, 1059.88, 458.75, 1072.93] - 0.813
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [194.2, 288.37, 274.99, 301.08] - 0.811
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [94.3, 220.22, 170.38, 233.15] - 0.81
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [95.48, 323.05, 274.96, 336.83] - 0.808
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [906.48, 93.29, 985.09, 106.7] - 0.807
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [372.97, 1110.33, 488.69, 1125.82] - 0.804
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [159.48, 339.64, 189.16, 351.65] - 0.802
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [20.9, 1060.06, 124.09, 1075.65] - 0.799
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [181.67, 305.81, 213.28, 318.3] - 0.794
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [31.19, 1391.77, 69.0, 1404.07] - 0.793
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [31.31, 1366.9, 57.67, 1378.68] - 0.793
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [94.51, 290.13, 189.87, 303.52] - 0.791
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [653.58, 1110.9, 731.37, 1123.77] - 0.789
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [595.64, 1334.68, 899.86, 1355.8] - 0.785
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [153.48, 272.2, 223.47, 284.65] - 0.783
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [1065.15, 1060.47, 1133.12, 1073.36] - 0.783
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [754.34, 1085.34, 878.4, 1097.12] - 0.783
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [173.28, 220.62, 202.15, 232.53] - 0.783
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Section-header - [706.65, 221.12, 903.84, 238.88] - 0.774
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [373.5, 1085.54, 456.92, 1097.48] - 0.773
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [521.75, 1390.76, 551.85, 1404.95] - 0.773
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [95.01, 272.86, 149.27, 285.95] - 0.773
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [522.2, 1316.89, 551.61, 1329.15] - 0.772
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [1064.51, 1085.38, 1133.87, 1098.62] - 0.762
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [522.63, 1341.36, 552.1, 1353.78] - 0.76
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [797.58, 93.37, 901.55, 105.5] - 0.759
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [21.23, 1183.5, 174.72, 1199.02] - 0.75
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [522.48, 1366.86, 552.04, 1379.42] - 0.744
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [161.06, 254.49, 250.17, 267.36] - 0.744
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [1064.51, 1110.05, 1133.53, 1123.54] - 0.742
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [21.58, 1085.28, 113.94, 1097.25] - 0.741
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [300.92, 1060.11, 346.96, 1072.75] - 0.734
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [21.64, 1110.76, 144.09, 1125.26] - 0.722
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [94.81, 255.13, 162.99, 268.15] - 0.712
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [316.55, 1110.89, 345.97, 1123.4] - 0.702
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [299.97, 1084.69, 346.25, 1098.03] - 0.695
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Key-Value Region - [15.86, 1050.81, 1144.58, 1132.93] - 0.693
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [94.19, 237.42, 239.24, 251.07] - 0.692
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Title - [706.64, 40.3, 1039.78, 64.64] - 0.679
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [98.1, 160.19, 387.84, 174.47] - 0.678
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Section-header - [706.64, 40.3, 1039.78, 64.64] - 0.648
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Section-header - [23.7, 1157.47, 188.6, 1173.96] - 0.646
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Key-Value Region - [96.04, 73.85, 552.73, 175.03] - 0.64
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Key-Value Region - [345.65, 108.23, 475.28, 121.61] - 0.638
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [21.63, 492.63, 73.61, 505.01] - 0.635
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [94.67, 322.95, 156.62, 335.67] - 0.611
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [20.56, 1241.34, 335.11, 1257.4] - 0.583
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [189.75, 142.91, 230.75, 154.74] - 0.581
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [31.32, 1291.53, 130.84, 1307.06] - 0.56
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Section-header - [31.32, 1291.53, 130.84, 1307.06] - 0.535
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [21.85, 442.04, 148.06, 454.94] - 0.52
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [20.57, 1212.11, 281.36, 1228.04] - 0.506
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [157.61, 322.96, 274.69, 336.34] - 0.504
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [653.35, 1085.38, 731.53, 1097.91] - 0.504
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Key-Value Region - [97.68, 141.97, 548.47, 174.08] - 0.481
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Key-Value Region - [18.74, 1279.45, 1149.09, 1414.46] - 0.481
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [706.65, 221.12, 903.84, 238.88] - 0.469
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [768.5, 262.54, 813.69, 273.46] - 0.468
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Table - [15.86, 1050.81, 1144.58, 1132.93] - 0.461
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Section-header - [595.64, 1334.68, 899.86, 1355.8] - 0.459
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Section-header - [211.96, 391.3, 300.18, 408.18] - 0.456
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Key-Value Region - [27.63, 1289.01, 561.23, 1411.15] - 0.455
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Title - [98.06, 50.37, 426.46, 72.67] - 0.439
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [97.68, 141.97, 548.47, 174.08] - 0.422
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Form - [18.74, 1279.45, 1149.09, 1414.46] - 0.419
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [21.88, 467.13, 125.91, 479.94] - 0.415
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [97.81, 160.68, 165.22, 172.17] - 0.413
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Key-Value Region - [706.88, 243.44, 899.86, 274.8] - 0.41
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Key-Value Region - [96.28, 106.24, 553.0, 175.44] - 0.406
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Form - [15.86, 1050.81, 1144.58, 1132.93] - 0.404
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [706.84, 262.49, 754.37, 273.7] - 0.391
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [52.8, 1432.6, 1100.11, 1447.79] - 0.39
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [237.65, 74.32, 286.31, 86.55] - 0.388
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Table - [18.74, 1279.45, 1149.09, 1414.46] - 0.388
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [94.42, 239.04, 112.04, 250.19] - 0.387
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [94.93, 288.26, 275.21, 301.78] - 0.376
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [23.7, 1157.47, 188.6, 1173.96] - 0.371
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Key-Value Region - [97.5, 93.03, 548.81, 176.51] - 0.368
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Key-Value Region - [706.83, 243.42, 899.72, 274.42] - 0.366
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [706.86, 262.58, 751.83, 273.72] - 0.363
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [707.28, 262.0, 813.9, 273.99] - 0.358
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Key-Value Region - [706.06, 221.12, 904.0, 275.17] - 0.356
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Picture - [706.64, 40.3, 1039.78, 64.64] - 0.346
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [94.04, 238.06, 177.93, 250.81] - 0.345
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Title - [706.65, 221.12, 903.84, 238.88] - 0.336
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [179.05, 237.74, 238.0, 249.84] - 0.336
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [154.07, 92.58, 205.91, 104.51] - 0.329
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Key-Value Region - [14.72, 947.1, 1146.35, 1034.41] - 0.328
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [877.46, 94.41, 900.78, 105.29] - 0.324
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [447.75, 142.72, 547.55, 157.48] - 0.323
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [98.79, 74.19, 286.73, 87.95] - 0.322
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [98.06, 50.37, 426.46, 72.67] - 0.311
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Section-header - [945.55, 963.01, 1061.7, 984.02] - 0.309
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Key-Value Region - [98.42, 107.97, 474.88, 123.29] - 0.308
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Text - [20.85, 961.24, 546.29, 980.54] - 0.308
+ST C:\Users\Pc\Desktop\axe_docl\fiche_de_paie2.jpg: Key-Value Region - [94.73, 321.82, 355.7, 337.66] - 0.303
